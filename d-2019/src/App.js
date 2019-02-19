@@ -23,7 +23,12 @@ class App extends Component {
           <p className="App-content">
             Hi
           </p>
-          <img src={require(`./static/img/phil.png`)}/>
+          <a href="https://www.linkedin.com/in/philip-michael-presnell-017aab46/">
+            <img className="App-phil" src={require(`./static/img/phil.png`)}/>
+          </a>
+
+
+
         </div>
 
         <div className="HostMain">

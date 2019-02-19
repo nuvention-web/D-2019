@@ -19,6 +19,18 @@
   color: white;
 }
 
+.App-phil {
+  border-radius: 50%;
+  border: 10px solid black;
+  padding: 5px;
+  width: 150px;
+
+}
+
+.App-phil:hover {
+  box-shadow: 0 0 20px 10px rgba(0, 140, 186, 0.5);
+}
+
 .App-content {
   /* background-color: #282c34; */
   /* min-height: 15vh; */
