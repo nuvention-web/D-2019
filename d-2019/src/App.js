@@ -24,7 +24,7 @@ class App extends Component {
             Hi
           </p>
           <a href="https://www.linkedin.com/in/philip-michael-presnell-017aab46/">
-            <img className="App-phil" src={require(`./static/img/phil.png`)}/>
+            <img className="App-phil" alt="phil" src={require(`./static/img/phil.png`)}/>
           </a>
 
 
