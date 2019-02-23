@@ -3,6 +3,7 @@ import Menu from './Components/Menu/index.js';
 import Navbar from './Components/Navbar/index.js';
 import EventList from './Components/EventList/index.js';
 import WelcomeBanner from './Components/WelcomeBanner/index.js';
+import { Button } from 'reactstrap';
 
 import './App.css';
 
