@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import HostMain from './Components/HostMain/HostMain';
-import EventMain from './Components/EventMain/EventMain';
-import logo from './logo.svg';
+import Menu from './Components/Menu';
+import Navbar from './Components/Navbar';
+import EventList from './Components/EventList';
+import WelcomeBanner from './Components/WelcomeBanner';
+import logo from './static/img/logo.svg';
 import './App.css';
 
 class App extends Component {
