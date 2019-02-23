@@ -5,9 +5,12 @@ class EventList extends Component {
 
 
     render() {
-  
+
       return (
-          <div></div>
+          <Fragment>
+            <EventBlock>
+            </EventBlock>
+          </Fragment>
       );
     }
   }
