@@ -1,9 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import Menu from './Components/Menu/index.js';
-import Navbar from './Components/Navbar/index.js';
+import Header from './Components/Header/index.js';
+import SearchBar from './Components/SearchBar/index.js';
 import EventList from './Components/EventList/index.js';
 import WelcomeBanner from './Components/WelcomeBanner/index.js';
-import { Button } from 'reactstrap';
+import { Container } from 'reactstrap';
+
 
 import './App.css';
 
@@ -14,11 +16,16 @@ class App extends Component {
 
     return (
       <Fragment>
-        <WelcomeBanner></WelcomeBanner>
-        <Navbar></Navbar>
-        <EventList></EventList>
-
-
+        <Container>
+            <header>
+              <Header></Header>
+            </header>
+            <body>
+              <WelcomeBanner></WelcomeBanner>
+              <SearchBar></SearchBar>
+              <EventList></EventList>
+            </body>
+          </Container>
       </Fragment>
     );
   }
