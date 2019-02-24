@@ -6,6 +6,8 @@ import staticImage2 from '../../../static/img/event2.jpg';
 import staticImage3 from '../../../static/img/event3.jpg';
 import EventDesc from './EventDesc';
 import './style.css';
+import {  Link , NavLink} from 'react-router-dom';
+
 
 
 
@@ -29,7 +31,7 @@ class EventBlock extends Component {
                         <EventDesc/>
                     </CardSubtitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button>Detail</Button>
+                    <NavLink to='/eventpage'> <Button color="primary">Detail</Button></NavLink>
                   </CardBody>
                 </Card>
                </Col>
@@ -42,7 +44,7 @@ class EventBlock extends Component {
                         <EventDesc/>
                     </CardSubtitle>
                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                    <Button>Detail</Button>
+                    <NavLink to='/eventpage'><Button> Detail</Button></NavLink>
                   </CardBody>
                 </Card>
               </Col>
@@ -55,7 +57,7 @@ class EventBlock extends Component {
                        <EventDesc/>
                    </CardSubtitle>
                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                   <Button>Detail</Button>
+                   <NavLink to='/eventpage'><Button> Detail</Button></NavLink>
                  </CardBody>
                </Card>
              </Col>
@@ -64,6 +66,7 @@ class EventBlock extends Component {
             <Host>
             </Host>
           </Container>
+
       );
     }
   }
