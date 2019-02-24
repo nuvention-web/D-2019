@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react';
 import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import Calendar from 'react-calendar';
 import DateTimePicker from 'react-datetime-picker'
-import ModalAlert from './Input1/Modal';
+
 import Input1 from './Input1';
 
 
@@ -40,9 +40,6 @@ class Alert extends Component {
                 <br></br>
 
                 <Input1/>
-                
-
-
 
         </Fragment>
       );
