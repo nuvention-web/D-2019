@@ -9,13 +9,13 @@ class EventDesc extends Component {
     location: '1925 Sherman Ave, IL 60201',
     currency: "$",
     value: 49.99,
-    groupsize: 10,
+    groupsize: 10,//we need to make this all connected. currently hard coded
     duration_hr: 3,
     duration_min: 30
 
   };
     render() {
-      const { events }  = this.props;
+
       return (
         <Fragment>
 

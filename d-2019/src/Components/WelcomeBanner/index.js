@@ -1,17 +1,23 @@
 import React, { Component, Fragment } from 'react';
 import {Button, Container} from 'reactstrap';
-// import EventList from '../EventList';
+import './style.css';
 class WelcomeBanner extends Component {
-
+          // <hr></hr>
 
     render() {
 
       return (
         <Container>
-          <h1>Tell Stories Through Food</h1>
-          <h3>Discover the local foodie experience in Chicago</h3>
+          <h1 className="story">Tell Stories Through Food</h1>
+          <h3 className="localexp">Discover the local foodie experience in Chicago</h3>
 
-            <Button class="btn btn-primary" type="submit">How it works?</Button>
+          
+
+
+          <div id="wrapper">
+            <Button class="btn btn-primary" size="lg" type="submit">How it works?</Button>
+          </div>
+          <br></br>
 
         </Container>
       );

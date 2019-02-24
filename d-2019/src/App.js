@@ -10,10 +10,7 @@ import { Container } from 'reactstrap';
 import './App.css';
 
 class App extends Component {
-
-
   render() {
-
     return (
       <Fragment>
         <Container>
@@ -23,6 +20,7 @@ class App extends Component {
             <body>
               <WelcomeBanner></WelcomeBanner>
               <SearchBar></SearchBar>
+              <br></br>
               <EventList></EventList>
             </body>
           </Container>
