@@ -7,7 +7,11 @@ import staticImage3 from '../../../static/img/event3.jpg';
 import EventDesc from './EventDesc';
 import './style.css';
 
+
+
 class EventBlock extends Component {
+
+
   state = {
     title: "JazzBar"
   };
@@ -56,7 +60,7 @@ class EventBlock extends Component {
                </Card>
              </Col>
             </Row>
-            
+
             <Host>
             </Host>
           </Container>
@@ -64,4 +68,4 @@ class EventBlock extends Component {
     }
   }
 
-  export default EventBlock;
+  export default  EventBlock;
