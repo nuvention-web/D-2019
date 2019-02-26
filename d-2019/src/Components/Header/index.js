@@ -3,7 +3,8 @@ import './style.css';
 import {Col, Row} from 'reactstrap';
 import { NavLink} from 'react-router-dom';
 import {Button} from 'reactstrap';
-import fire from 'config/Fire';
+import fire from '../../config/Fire';
+import logoImage from '../../static/img/logo.png';
 
 class Header extends Component {
 
@@ -35,9 +36,11 @@ class Header extends Component {
 
             <div class="title">
               <Row>
-                <Col xs="4">
-                  <h3>TravelPal</h3>
+
+                <Col xs="2">
+                  <img className="logoImage" src={logoImage}  alt="logo" />
                 </Col>
+
 
                 <Col xs="2">
                   <h5><a href='/'>Book Now</a></h5>
