@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Host from '../../Host';
-import {Row, Col, Container, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText,Button} from 'reactstrap';
+import {Row, Col, Container, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button} from 'reactstrap';
 import staticImage1 from '../../../static/img/event1.jpg';
 import staticImage2 from '../../../static/img/event2.jpg';
 import staticImage3 from '../../../static/img/event3.jpg';
