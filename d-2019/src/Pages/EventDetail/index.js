@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Button, Container} from 'reactstrap';
-import EventDesc from '../../Components/EventList/EventBlock/EventDesc';
+import EventDesc from 'Components/EventList/EventBlock/EventDesc';
 import Map from './Map';
 import {Row, Col, Card }from'reactstrap';
 import {  Link , NavLink} from 'react-router-dom';

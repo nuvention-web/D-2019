@@ -3,7 +3,7 @@ import './style.css';
 import {Col, Row} from 'reactstrap';
 import { NavLink} from 'react-router-dom';
 import {Button} from 'reactstrap';
-import fire from '../../config/Fire';
+import fire from 'config/Fire';
 
 class Header extends Component {
 

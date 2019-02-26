@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import {Container} from 'reactstrap';
-import Header from '../Components/Header';
+import Header from 'Components/Header';
 import EventDetail from './EventDetail';
 
 class EventPage extends Component {

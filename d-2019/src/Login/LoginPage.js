@@ -1,7 +1,7 @@
-import fire from '../config/Fire';
+import fire from 'config/Fire';
 import Login from './Login';
 import Home from './Home';
-import App from '../App';
+import App from 'App';
 import React, { Component, Fragment } from 'react';
 
 

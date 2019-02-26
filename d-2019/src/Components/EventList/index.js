@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import EventBlock from './EventBlock';
-// import LineDivisor from '../LineDivisor';
 import {Container} from 'reactstrap';
 
 class EventList extends Component {
