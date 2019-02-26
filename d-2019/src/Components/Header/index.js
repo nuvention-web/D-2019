@@ -3,8 +3,8 @@ import './style.css';
 import {Col, Row} from 'reactstrap';
 import { NavLink} from 'react-router-dom';
 import {Button} from 'reactstrap';
-import fire from '../../config/Fire';
-import logoImage from '../../static/img/logo.png';
+import fire from 'config/Fire';
+import logoImage from 'static/img/logo.png';
 
 class Header extends Component {
 
