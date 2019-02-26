@@ -17,3 +17,18 @@ a:hover{
 text-decoration: none;
  color:#9900ff;
 }
+
+.logoImage {
+
+ max-width: 120px;
+ background-color: transparent;
+
+}
+
+.col-4,
+.col-2{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+justify-content:space-evenly;
+}
