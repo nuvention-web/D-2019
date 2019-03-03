@@ -5,7 +5,7 @@ import EventPage from './Pages/EventPage';
 // import Submit from './Submit';
 import EventBlock from './Components/EventList/EventBlock';
 import Booking from './Pages/Booking';
-import LoginPage from './Login/LoginPage';
+import LoginPage from './Pages/Login/LoginPage';
 
 const SiteRoutes = () => (
   <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>

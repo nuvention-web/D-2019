@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import {Container, Button} from 'reactstrap';
 import Header from 'Components/Header';
-import Alert from './Alert';
+import {BookingConfirmation} from 'Components/Alerts';
 
 
 class Booking extends Component {
@@ -24,7 +24,7 @@ class Booking extends Component {
 
               </header>
               <body>
-                <Alert/>
+                <BookingConfirmation/>
               </body>
             </Container>
         </Fragment>

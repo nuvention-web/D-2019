@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import Host from '../../Host';
+import {Host} from 'Components/Users';
 import {Row, Col, Container, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button} from 'reactstrap';
-import staticImage1 from '../../../static/img/event1.jpg';
-import staticImage2 from '../../../static/img/event2.jpg';
-import staticImage3 from '../../../static/img/event3.jpg';
+import staticImage1 from 'static/img/event1.jpg';
+import staticImage2 from 'static/img/event2.jpg';
+import staticImage3 from 'static/img/event3.jpg';
 import EventDesc from './EventDesc';
 import './style.css';
 import {  Link , NavLink} from 'react-router-dom';
@@ -71,4 +71,4 @@ class EventBlock extends Component {
     }
   }
 
-  export default  EventBlock;
+  export default EventBlock;

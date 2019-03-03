@@ -7,7 +7,7 @@ import DateTimePicker from 'react-datetime-picker'
 import Input1 from './Input1';
 
 
-class Alert extends Component {
+class BookingConfirmation extends Component {
 
   state={
     date: new Date(),
@@ -45,4 +45,4 @@ class Alert extends Component {
       );
     }
   }
-export default Alert;
+export default BookingConfirmation;
