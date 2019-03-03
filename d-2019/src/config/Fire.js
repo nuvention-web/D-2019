@@ -9,4 +9,5 @@ import firebase from 'firebase';
     messagingSenderId: "715662726305"
   };
   const fire = firebase.initializeApp(config);
+
   export default fire;
