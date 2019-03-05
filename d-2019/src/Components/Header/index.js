@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import './style.css';
 import {Col, Row} from 'reactstrap';
 import { NavLink} from 'react-router-dom';
-import {Button} from 'reactstrap';
 import fire from 'config/Fire';
 import logoImage from 'static/img/logo.png';
 
@@ -34,7 +33,7 @@ class Header extends Component {
 
 
 
-            <div class="title">
+            <div className="title">
               <Row>
 
                 <Col xs="2">
@@ -52,7 +51,7 @@ class Header extends Component {
 
 
                 <Col xs="2">
-                  <h5><a href='/'>Register</a></h5>
+                  <h5><a href='/signup'>Register</a></h5>
                 </Col>
 
 

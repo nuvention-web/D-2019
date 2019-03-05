@@ -17,14 +17,14 @@ class FileInput extends React.Component {
   }
   handleSubmit(event) {
     event.preventDefault();
+    
     var ref = storageRef.child('testing123/testpic.png');
-    ref.put(this.current.files[0]).then(function(){
-      alert(
-        `Selected file - ${
-          this.fileInput.current.files[0].name
-        }`
-      );
-    });
+    ref.put(this.fileInput.current.files[0]);
+    alert(
+      `Submitted file - ${
+        this.fileInput.current.files[0].name
+      }`
+    );
   }
 
   render() {

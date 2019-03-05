@@ -15,7 +15,7 @@ class WelcomeBanner extends Component {
 
 
           <div id="wrapper">
-            <Button class="btn btn-primary" size="lg" type="submit">How it works?</Button>
+            <Button className="btn btn-primary" size="lg" type="submit">How it works?</Button>
           </div>
           <br></br>
 
