@@ -21,6 +21,7 @@ const SiteRoutes = () => (
           <Route exact path='/signup' component={SignUp}/>
           <Route exact path='/hostpage' component={HostPage}/>
           <Route exact path='/becomehost' component={BecomeHost}/>
+          <Route path='/eventpage/:id' component={EventPage}/>
       </Switch>
 
   </BrowserRouter>
