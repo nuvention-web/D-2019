@@ -1,12 +1,15 @@
 import React, { Component, Fragment } from 'react';
 import './style.css';
 import {Button, Col, Row} from 'reactstrap';
-import { NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import fire from 'config/Fire';
 import logoImage from 'static/img/logo.png';
 
 var email = 'not logged in';
 var isuser = false;
+
+
+
 
 fire.auth().onAuthStateChanged(function(user) {
   if (user) {
@@ -19,7 +22,6 @@ fire.auth().onAuthStateChanged(function(user) {
   }
 });
 class Header extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -27,14 +29,9 @@ class Header extends Component {
         }
         this.logout = this.logout.bind(this);
     }
-
     logout() {
         fire.auth().signOut();
     }
-
-
-
-
     render() {
       let lastlink;
       const ColoredLine = ({ color, style }) => (
@@ -48,43 +45,31 @@ class Header extends Component {
           />
       );
       if (isuser){
-        lastlink = <Button onClick={this.logout}>Logout</ Button>
+        lastlink = <h5><element onClick={this.logout}>Logout</ element></h5>
       }
       else {
-        lastlink = <Button href='/loginpage'> Login</ Button>
+        lastlink = <h5><NavLink to='/loginpage'>Login</ NavLink></h5>
       }
       return (
           <Fragment>
-
-
-
             <div className="title">
               <p>{email}</p>
               <Row>
-
                 <Col xs="2">
                   <NavLink to='/'><img className="logoImage" src={logoImage}  alt="logo" /></NavLink>
                 </Col>
-
                 <Col xs="2">
                   <h5><NavLink to='/becomehost'>Become a Host</NavLink></h5>
-
-
-
                 </Col>
-
                 <Col xs="2">
                   <h5><NavLink to='signup'>Register</NavLink></h5>
                 </Col>
-
-
                 <Col xs="2">
                 {lastlink}
                 </Col>
               </Row>
             </div>
             <ColoredLine/>
-
           </Fragment>
 
       );
