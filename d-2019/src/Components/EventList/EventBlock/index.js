@@ -36,11 +36,12 @@ class EventBlock extends Component {
           <CardTitle><h5>{this.props.title}</h5></CardTitle>
           <CardSubtitle>
           <div className="description">
-            <h5>Price: <b>{this.props.price}</b>per person</h5>
+            <h5>Price: {this.props.currency}<b>{this.props.price}</b> per person</h5>
 
             <h5>Duration: {this.props.duration}</h5>
 
             <h5>Group Size: {this.props.groupsize}</h5>
+            <h5>Category: {this.props.category}</h5>
           </div>
           </CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
