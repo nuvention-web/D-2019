@@ -3,12 +3,23 @@ import { Link, NavLink } from 'react-router-dom';
 import {Container, Button} from 'reactstrap';
 import Header from 'Components/Header';
 import {BookingConfirmation} from 'Components/Alerts';
-import firebase from 'firebase';
+import fire from 'config/Fire';
 
 
-var storage = firebase.storage();
+var storage = fire.storage();
 var storageRef = storage.ref();
-
+var uid = '';
+var email = '';
+fire.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    email = user.email;
+    uid = user.uid;
+  }
+  else {
+    email = '';
+    uid = '';
+  }
+});
 class FileInput extends React.Component {
   constructor(props) {
     super(props);
@@ -18,7 +29,7 @@ class FileInput extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     
-    var ref = storageRef.child('testing123/testpic.png');
+    var ref = storageRef.child('users/'+uid+'/'+this.fileInput.current.files[0].name);
     ref.put(this.fileInput.current.files[0]);
     alert(
       `Submitted file - ${

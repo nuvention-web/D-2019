@@ -5,16 +5,31 @@ import { NavLink} from 'react-router-dom';
 import fire from 'config/Fire';
 import logoImage from 'static/img/logo.png';
 
+var email = 'not logged in';
+
+fire.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    email = user.email;
+  }
+  else {
+    email = 'not logged in';
+  }
+});
 class Header extends Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+          user: 'not logged in'
+        }
         this.logout = this.logout.bind(this);
     }
 
     logout() {
         fire.auth().signOut();
     }
+
+    
 
 
     render() {
@@ -34,6 +49,7 @@ class Header extends Component {
 
 
             <div className="title">
+              <p>{email}</p>
               <Row>
 
                 <Col xs="2">
