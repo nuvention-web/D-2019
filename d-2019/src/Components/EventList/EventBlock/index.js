@@ -31,7 +31,7 @@ class EventBlock extends Component {
   render() {
     return (
       <Card className= "card_margin" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
-        <CardImg top width="100%" src={staticImage1} alt="static image" />
+        <CardImg top width="100%" src={require('../../../'+this.props.photo)} alt="static image" />
         <CardBody>
           <CardTitle><h5>{this.props.title}</h5></CardTitle>
           <CardSubtitle>

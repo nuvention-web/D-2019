@@ -24,7 +24,8 @@ class EventList extends Component {
           duration={this.state.data[i]['duration']}
           groupsize={this.state.data[i]['groupsize']}
           price={this.state.data[i]['price']}
-          hostid={this.state.data[i]['hostid']} />
+          hostid={this.state.data[i]['hostid']}
+          photo={this.state.data[i]['photo']} />
           </Col>);
           i++;
         }
