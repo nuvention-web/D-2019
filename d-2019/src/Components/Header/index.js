@@ -32,7 +32,7 @@ class Header extends Component {
         fire.auth().signOut();
     }
 
-    
+
 
 
     render() {
@@ -63,15 +63,18 @@ class Header extends Component {
               <Row>
 
                 <Col xs="2">
-                  <a href='/'><img className="logoImage" src={logoImage}  alt="logo" /></a>
+                  <NavLink to='/'><img className="logoImage" src={logoImage}  alt="logo" /></NavLink>
                 </Col>
 
                 <Col xs="2">
-                  <h5><a href='/BecomeHost'>Become a Host</a></h5>
+                  <h5><NavLink to='/becomehost'>Become a Host</NavLink></h5>
+
+
+
                 </Col>
 
                 <Col xs="2">
-                  <h5><a href='/signup'>Register</a></h5>
+                  <h5><NavLink to='signup'>Register</NavLink></h5>
                 </Col>
 
 
