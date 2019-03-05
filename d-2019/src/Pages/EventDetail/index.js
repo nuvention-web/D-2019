@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Button, Container} from 'reactstrap';
-import EventDesc from 'Components/EventList/EventBlock/EventDesc';
-import Map from './Map';
+import Map from 'Components/Map';
 import {Row, Col, Card }from'reactstrap';
 import {  Link , NavLink} from 'react-router-dom';
 import './style.css';
@@ -38,7 +37,7 @@ class EventDetail extends Component {
 
             <Col>
 
-              <div class="description">
+              <div className="description">
                 <h4>Price: {this.state.currency} {this.state.value}</h4>
                 <h4> | </h4>
                 <h4>Duration: {this.state.duration_hr} hr {this.state.duration_min} min</h4>
