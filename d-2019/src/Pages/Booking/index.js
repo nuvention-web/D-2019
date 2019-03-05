@@ -72,7 +72,6 @@ class Booking extends Component {
               </header>
               <body>
                 <BookingConfirmation/>
-                <FileInput id="testphoto" />
               </body>
             </Container>
         </Fragment>

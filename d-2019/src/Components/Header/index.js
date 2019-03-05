@@ -1,18 +1,21 @@
 import React, { Component, Fragment } from 'react';
 import './style.css';
-import {Col, Row} from 'reactstrap';
+import {Button, Col, Row} from 'reactstrap';
 import { NavLink} from 'react-router-dom';
 import fire from 'config/Fire';
 import logoImage from 'static/img/logo.png';
 
 var email = 'not logged in';
+var isuser = false;
 
 fire.auth().onAuthStateChanged(function(user) {
   if (user) {
     email = user.email;
+    isuser = true;
   }
   else {
     email = 'not logged in';
+    isuser = false;
   }
 });
 class Header extends Component {
@@ -33,6 +36,7 @@ class Header extends Component {
 
 
     render() {
+      let lastlink;
       const ColoredLine = ({ color, style }) => (
           <hr
               style={{
@@ -43,6 +47,12 @@ class Header extends Component {
               }}
           />
       );
+      if (isuser){
+        lastlink = <Button onClick={this.logout}>Logout</ Button>
+      }
+      else {
+        lastlink = <Button href='/loginpage'> Login</ Button>
+      }
       return (
           <Fragment>
 
@@ -53,18 +63,12 @@ class Header extends Component {
               <Row>
 
                 <Col xs="2">
-                  <img className="logoImage" src={logoImage}  alt="logo" />
-                </Col>
-
-
-                <Col xs="2">
-                  <h5><a href='/'>Book Now</a></h5>
+                  <a href='/'><img className="logoImage" src={logoImage}  alt="logo" /></a>
                 </Col>
 
                 <Col xs="2">
-                  <h5><a href='/'>Become a Host</a></h5>
+                  <h5><a href='/BecomeHost'>Become a Host</a></h5>
                 </Col>
-
 
                 <Col xs="2">
                   <h5><a href='/signup'>Register</a></h5>
@@ -72,8 +76,7 @@ class Header extends Component {
 
 
                 <Col xs="2">
-                <h5>  <NavLink to='/loginpage'> Log In</NavLink></h5>
-                <button onClick={this.logout}>Logout</button>
+                {lastlink}
                 </Col>
               </Row>
             </div>
