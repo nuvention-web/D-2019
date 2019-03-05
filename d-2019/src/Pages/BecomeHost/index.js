@@ -31,7 +31,7 @@ class GoHostMode extends React.Component {
             name : '',
         }
     }
-    
+
     handleSubmit(event) {
         event.preventDefault();
         fire.database().ref('users/' + uid).set({
@@ -66,9 +66,11 @@ class GoHostMode extends React.Component {
         return (
             <form onSubmit={this.handleSubmit}>
                 Name: <input type="text" value={this.state.name} onChange={this.handleNameChange} />
+              <br></br><br></br>
                 Profile Photo: <input type="file" ref={this.fileInput} />
-                <br />
+              <br></br><br></br>
                 Brief Bio: <textarea value={this.state.bio} onChange={this.handleBioChange} />
+              <br></br><br></br>
                 <button type="submit">Submit</button>
             </form>
         );

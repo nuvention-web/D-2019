@@ -9,7 +9,7 @@
         "location": "1460 N Kingsbury St, Chicago, IL 60642",
         "category":  "Food Tasting",
         "included": "5 cheeses"
-    }, 
+    },
     {
         "title": "Cheese 101 & Luxury Tasting",
         "currency": "$",
@@ -20,7 +20,7 @@
         "location": "1460 N Kingsbury St, Chicago, IL 60642",
         "category":  "Food Tasting",
         "included": "5 cheeses"
-    }, 
+    },
     {
         "title": "Cheese 101 & Luxury Tasting",
         "currency": "$",
@@ -31,7 +31,7 @@
         "location": "1460 N Kingsbury St, Chicago, IL 60642",
         "category":  "Food Tasting",
         "included": "5 cheeses"
-    }, 
+    },
     {
         "title": "Cheese 101 & Luxury Tasting",
         "currency": "$",
@@ -42,7 +42,18 @@
         "location": "1460 N Kingsbury St, Chicago, IL 60642",
         "category":  "Food Tasting",
         "included": "5 cheeses"
-    }, 
+    },
+    {
+        "title": "Cheese 101 & Luxury Tasting",
+        "currency": "$",
+        "duration": "2 hours",
+        "groupsize": "1-6",
+        "price": "80 per person",
+        "hostid": "ssmith",
+        "location": "1460 N Kingsbury St, Chicago, IL 60642",
+        "category":  "Food Tasting",
+        "included": "5 cheeses"
+    },
     {
         "title": "Cheese 101 & Luxury Tasting",
         "currency": "$",

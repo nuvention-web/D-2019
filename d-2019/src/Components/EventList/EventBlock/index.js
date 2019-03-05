@@ -12,7 +12,7 @@ import PropTypes from 'prop-types';
 /*
 - title
 - location
-- price 
+- price
 - category
 - duration
 - groupsize
@@ -30,7 +30,7 @@ class EventBlock extends Component {
 
   render() {
     return (
-      <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+      <Card className= "card_margin" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
         <CardImg top width="100%" src={staticImage1} alt="static image" />
         <CardBody>
           <CardTitle><h4>{this.props.title}</h4></CardTitle>
