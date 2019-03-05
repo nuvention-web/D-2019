@@ -36,7 +36,7 @@ class EventBlock extends Component {
           <CardTitle><h4>{this.props.title}</h4></CardTitle>
           <CardSubtitle>
           <div className="description">
-            <h3>Price: {this.props.currency} {this.props.price}</h3>
+            <h3>Price: {this.props.price}</h3>
             <h4> | </h4>
             <h3>Duration: {this.props.duration}</h3>
             <h4> | </h4>
@@ -52,13 +52,5 @@ class EventBlock extends Component {
   }
 }
 
-EventBlock.propTypes = {
-  title: PropTypes.string,
-  currency: PropTypes.string,
-  duration: PropTypes.string,
-  groupsize: PropTypes.string,
-  price: PropTypes.number,
-  hostid: PropTypes.string
-};
 
 export default EventBlock;

@@ -8,6 +8,7 @@ import Booking from './Pages/Booking';
 import LoginPage from './Pages/Login/LoginPage';
 import SignUp from './Pages/SignUp';
 import BecomeHost from './Pages/BecomeHost';
+import HostPage from './Pages/HostPage';
 
 const SiteRoutes = () => (
   <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
@@ -18,6 +19,7 @@ const SiteRoutes = () => (
           <Route exact path='/bookpage' component={Booking}/>
           <Route exact path='/loginpage' component={LoginPage}/>
           <Route exact path='/signup' component={SignUp}/>
+          <Route exact path='/hostpage' component={HostPage}/>
           <Route exact path='/becomehost' component={BecomeHost}/>
       </Switch>
 
