@@ -1,3 +1,33 @@
+.sticky-sidebar-content {
+  width: 100%;
+  margin: 0 auto;
+}
+/*
+.sticky-sidebar-content::after{
+  display:table;
+  content:"";
+  clear:both;
+} */
+
+.sticky-sidebar-content .sandbox{
+  width:90%;
+  margin: 0 0 40px;
+  float:right;
+}
+
+.sticky-sidebar {
+  background: #e7eef1;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 12px 0 -6px #fa90a3;
+  margin-top: 10px;
+  position: fixed;
+  left: 3%;
+  width: 10%;
+  float: left;
+}
+
 .App {
   text-align: center;
 }

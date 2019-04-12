@@ -15,16 +15,15 @@ class App extends Component {
     return (
       <Fragment>
           <Container>
-              <header>
+              <header class="sticky-sidebar">
                 <Header></Header>
               </header>
-              <body>
-                <WelcomeBanner></WelcomeBanner>
-                <SearchBar></SearchBar>
-                <br></br>
-                <EventList></EventList>
-              </body>
-            </Container>
+              <div class="sticky-sidebar-content">
+                <body class="sandbox">
+                  <EventList></EventList>
+                </body>
+              </div>
+          </Container>
       </Fragment>
     );
   }

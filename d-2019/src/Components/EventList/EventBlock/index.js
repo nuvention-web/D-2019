@@ -30,10 +30,10 @@ class EventBlock extends Component {
 
   render() {
     return (
-      <Card className= "card_margin" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+      <Card className= "card_margin" body inverse >
         <CardImg top width="100%" src={require('../../../'+this.props.photo)} alt="static image" />
         <CardBody>
-          <CardTitle><h5>{this.props.title}</h5></CardTitle>
+          <CardTitle className="description"><h5>{this.props.title}</h5></CardTitle>
           <CardSubtitle>
           <div className="description">
             <h5>Price: {this.props.currency}<b>{this.props.price}</b> per person</h5>
@@ -45,7 +45,7 @@ class EventBlock extends Component {
           </div>
           </CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <NavLink to='/eventpage'> <Button color="primary">Detail</Button></NavLink>
+
         </CardBody>
       </Card>
     );
@@ -54,3 +54,4 @@ class EventBlock extends Component {
 
 
 export default EventBlock;
+//<NavLink to='/eventpage'> <Button color="primary">Detail</Button></NavLink>
