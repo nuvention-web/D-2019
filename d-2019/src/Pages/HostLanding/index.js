@@ -28,8 +28,7 @@ class HostLandingPage extends Component {
       <Row className='navheading'>
         <Col><Button>How it Works?</Button></Col>
         <Col><Button>Subscription Plan</Button></Col>
-        <Col><Button href="https://docs.google.com/forms/d/1EHfSbYXNnb-l3AIXMvnrRzppeSaaPfnfRafLOgFcvz4/edit#response=ACYDBNheMq4H6MBOCrcYMEDrQcpKAYkkvdot9J05PTsO-eRBRgqs2Himg6afBozAsXvltFc
-">Register</Button></Col>
+        <Col><Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Register</Button></Col>
         <Col><Button>Login</Button></Col>
         <Col><a href="./"><img className='logo' src={require('static/img/logo2.png')} /></a></Col>
       </Row>
@@ -37,7 +36,7 @@ class HostLandingPage extends Component {
         <div>
         <img className='bg-small-img logo' src={require('static/img/logo.png')} />
         <h2 className="large-text">Introducing FoodXP <br /> Your place to offer indulgent food experiences</h2>
-        <Button>Try FoodXP NOW</Button>
+        <Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Try FoodXP NOW</Button>
         </div>
       </Row>
       <Carousel/>
@@ -48,13 +47,12 @@ class HostLandingPage extends Component {
         <Col className='detail detail4'>You are all set to offer your experience!</Col>
       </Row>
       <Row className='howitworks'>
-        <Col><CardImg src={require('static/img/howitworks.png')}></CardImg></Col>
+        <Col><CardImg className='hiwimg' src={require('static/img/howitworks.png')}></CardImg></Col>
       </Row>
       <Row>
         <div>
         <h2>Sign up to offer your experience <br /> For Free</h2>
-        <Button href="https://docs.google.com/forms/d/1EHfSbYXNnb-l3AIXMvnrRzppeSaaPfnfRafLOgFcvz4/edit#response=ACYDBNheMq4H6MBOCrcYMEDrQcpKAYkkvdot9J05PTsO-eRBRgqs2Himg6afBozAsXvltFc
-">Start your free trial here</Button>
+        <Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Start your free trial here</Button>
         </div>
       </Row>
     </Container>
