@@ -1,0 +1,14 @@
+.wcb .wcb-bgimg{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wcb-body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    min-width: 600px;
+    color: white;
+    font-size: large;
+}

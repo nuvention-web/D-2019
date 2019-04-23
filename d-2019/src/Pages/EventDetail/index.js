@@ -4,7 +4,7 @@ import Map from 'Components/Map';
 import {Row, Col, Card }from'reactstrap';
 import {  Link , NavLink} from 'react-router-dom';
 import './style.css';
-import staticImage1 from '../../static/img/event1.png';
+import staticImage1 from '../../static/img/event1.jpg';
 import staticImage2 from '../../static/img/event1_host1.png';
 
 

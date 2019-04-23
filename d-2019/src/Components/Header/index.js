@@ -55,16 +55,16 @@ class Header extends Component {
             <div className="title">
               <p>{email}</p>
               <Row>
-                <Col xs="2">
+                <Col>
                   <NavLink to='/'><img className="logoImage" src={logoImage}  alt="logo" /></NavLink>
                 </Col>
-                <Col xs="2">
+                <Col>
                   <h5><NavLink to='/becomehost'>Become a Host</NavLink></h5>
                 </Col>
-                <Col xs="2">
+                <Col>
                   <h5><NavLink to='signup'>Register</NavLink></h5>
                 </Col>
-                <Col xs="2">
+                <Col>
                 {lastlink}
                 </Col>
               </Row>

@@ -1,9 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Host } from 'Components/Users';
 import { Row, Col, Container, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button } from 'reactstrap';
-import staticImage1 from 'static/img/event1.png';
-import staticImage2 from 'static/img/event2.png';
-import staticImage3 from 'static/img/event3.png';
 import './style.css';
 import { Link, NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
@@ -30,9 +27,9 @@ class WideContentBlock extends Component {
 
   render() {
     return (
-        <div className="banana">
-        <CardImg className="wut" src={require('../../../'+this.props.photo)} alt="static image" />
-        <h2 className="floatything"> bla bla </h2>
+        <div className="wcb">
+        <CardImg className="wcb-bgimg" src={require('../../../'+this.props.photo)} alt="static image" />
+        <div className="wcb-body"> bla bla </div>
         </div>
     );
   }
