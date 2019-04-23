@@ -11,10 +11,11 @@ class HostLandingPage extends Component {
   render() {
     return (
       <Container>
-      <Row className='heading'>
+      <Row className='navheading'>
         <Col><Button>How it Works?</Button></Col>
         <Col><Button>Subscription Plan</Button></Col>
-        <Col><Button>Register</Button></Col>
+        <Col><Button href="https://docs.google.com/forms/d/1EHfSbYXNnb-l3AIXMvnrRzppeSaaPfnfRafLOgFcvz4/edit#response=ACYDBNheMq4H6MBOCrcYMEDrQcpKAYkkvdot9J05PTsO-eRBRgqs2Himg6afBozAsXvltFc
+">Register</Button></Col>
         <Col><Button>Login</Button></Col>
         <Col><img className='logo' src={require('static/img/logo2.png')} /></Col>
       </Row>
@@ -26,10 +27,10 @@ class HostLandingPage extends Component {
         </div>
       </Row>
       <Row className='details'>
-        <Col className='detail'>Fill out the form to share details about your experience</Col>
-        <Col className='detail'>A member of our team will contact you for onboarding</Col>
-        <Col className='detail'>Your page goes live!</Col>
-        <Col className='detail'>You are all set to offer your experience!</Col>
+        <Col className='detail detail1'>Fill out the form to share details about your experience</Col>
+        <Col className='detail detail2'>A member of our team will contact you for onboarding</Col>
+        <Col className='detail detail3'>Your page goes live!</Col>
+        <Col className='detail detail4'>You are all set to offer your experience!</Col>
       </Row>
       <Row className='howitworks'>
         <Col><CardImg src={require('static/img/howitworks.png')}></CardImg></Col>
@@ -37,7 +38,8 @@ class HostLandingPage extends Component {
       <Row>
         <div>
         <h2>Sign up to offer your experience <br /> For Free</h2>
-        <Button>Start your free trial here</Button>
+        <Button href="https://docs.google.com/forms/d/1EHfSbYXNnb-l3AIXMvnrRzppeSaaPfnfRafLOgFcvz4/edit#response=ACYDBNheMq4H6MBOCrcYMEDrQcpKAYkkvdot9J05PTsO-eRBRgqs2Himg6afBozAsXvltFc
+">Start your free trial here</Button>
         </div>
       </Row>
     </Container>

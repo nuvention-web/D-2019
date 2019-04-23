@@ -3,6 +3,10 @@
     margin: 0 auto 5em auto;
 }
 
+.navheading.row {
+    margin-top: 1em;
+}
+
 .container {
     margin: 0;
     padding: 0;
@@ -35,8 +39,21 @@
 .detail {
     background-color: #df744A;
     margin: 1em;
-    padding: 5em 0;
+    height: 20vw;
+    width: 20vw;
     font-size: 1.3em;
+}
+
+.detail1 {
+    background-color: #ffbc8e;
+}
+
+.detail3 {
+    background-color: #9dd1bb;
+}
+
+.detail4 {
+    background-color: #61ba95;
 }
 
 .logo {
@@ -47,4 +64,5 @@
 .btn {
     background-color: #df744A;
     border: none;
+    white-space: nowrap;
 }
