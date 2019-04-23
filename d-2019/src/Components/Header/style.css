@@ -1,0 +1,19 @@
+.title h3,
+.title h4 {
+  display: inline;
+   text-align: right;
+
+}
+
+a:link {
+text-decoration: none;
+ color:hotpink;
+}
+a:visited {
+text-decoration: none;
+ color:hotpink;
+}
+a:hover{
+text-decoration: none;
+ color:#9900ff;
+}

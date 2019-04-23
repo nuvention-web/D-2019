@@ -1,46 +1,30 @@
 import React, { Component, Fragment } from 'react';
-import Menu from './Components/Menu';
-import Navbar from './Components/Navbar';
-import EventList from './Components/EventList';
-import WelcomeBanner from './Components/WelcomeBanner';
-import logo from './static/img/logo.svg';
+import Menu from './Components/Menu/index.js';
+import Header from './Components/Header/index.js';
+import SearchBar from './Components/SearchBar/index.js';
+import EventList from './Components/EventList/index.js';
+import WelcomeBanner from './Components/WelcomeBanner/index.js';
+import { Container } from 'reactstrap';
 import './App.css';
+
+
 
 class App extends Component {
 
-
   render() {
-
     return (
       <Fragment>
-        <div className="App">
-          <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-              <h1>
-                FoodPal
-              </h1>
-
-
-          </header>
-          <p className="App-content">
-            Hi
-          </p>
-          <a href="https://www.linkedin.com/in/philip-michael-presnell-017aab46/">
-            <img className="App-phil" alt="phil" src={require(`./static/img/phil.png`)}/>
-          </a>
-
-
-
-        </div>
-
-        <div className="HostMain">
-
-        </div>
-        <div className="EventMain">
-
-        </div>
-
-
+          <Container>
+              <header>
+                <Header></Header>
+              </header>
+              <body>
+                <WelcomeBanner></WelcomeBanner>
+                <SearchBar></SearchBar>
+                <br></br>
+                <EventList></EventList>
+              </body>
+            </Container>
       </Fragment>
     );
   }
