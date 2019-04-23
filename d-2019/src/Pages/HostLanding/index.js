@@ -1,6 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import {CardImg, Button, Row, Col, Container} from 'reactstrap';
 import './style.css';
+import './_slick-theme.scss';
+import './_slick.scss';
+import Carousel from './Carousel';
+
+
 
 class HostLandingPage extends Component {
   constructor(props){
@@ -9,6 +14,15 @@ class HostLandingPage extends Component {
 
 
   render() {
+
+    const settings = {
+          dots: true,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        };
+
     return (
       <Container>
       <Row className='navheading'>
@@ -16,7 +30,7 @@ class HostLandingPage extends Component {
         <Col><Button>Subscription Plan</Button></Col>
         <Col><Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Register</Button></Col>
         <Col><Button>Login</Button></Col>
-        <Col><img className='logo' src={require('static/img/logo2.png')} /></Col>
+        <Col><a href="./"><img className='logo' src={require('static/img/logo2.png')} /></a></Col>
       </Row>
       <Row className='introducing'>
         <div>
@@ -25,6 +39,7 @@ class HostLandingPage extends Component {
         <Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Try FoodXP NOW</Button>
         </div>
       </Row>
+      <Carousel/>
       <Row className='details'>
         <Col className='detail detail1'>Fill out the form to share details about your experience</Col>
         <Col className='detail detail2'>A member of our team will contact you for onboarding</Col>
