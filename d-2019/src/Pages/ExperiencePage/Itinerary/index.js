@@ -10,7 +10,7 @@ class Itinerary extends Component {
         <Fragment>
           <Container>
             <Card inverse>
-            <CardImg top width="100%" src={require('../../../static/img/kari.jpg')} alt="Card image cap" />
+            <CardImg width="100%" src={require('../../../static/img/chicago_chinatown.jpg')} alt="Card image cap" />
             <CardImgOverlay>
               <CardTitle>
               <big>  Detailed Itinerary</big>
