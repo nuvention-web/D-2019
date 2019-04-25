@@ -17,7 +17,7 @@ import './style.css';
 
 
 
-class ExperiencePage extends Component {
+class ExperiencePage1 extends Component {
 
     render() {
 
@@ -31,11 +31,12 @@ class ExperiencePage extends Component {
           <div class="sticky-sidebar-content">
             <body class="sandbox">
               <CardDeck>
-
+                <div className="left_column">
                 <Card body>
                   <HostDetail/>
                 </Card>
-                <div>
+                </div>
+                <div className="right_column">
                   <Card body>
                     <ExperienceTitle/>
                   </Card>
@@ -53,8 +54,11 @@ class ExperiencePage extends Component {
               <TourInclusion/>
               <BringToTour/>
             </body>
+            <div className="custom">
               <Customization/>
+              <br></br>
               <Col><Button>Book Now</Button></Col>
+              </div>
           </div>
           </Container>
         </Fragment>
@@ -62,4 +66,4 @@ class ExperiencePage extends Component {
     }
   }
 
-export default ExperiencePage;
+export default ExperiencePage1;
