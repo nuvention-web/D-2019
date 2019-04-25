@@ -17,7 +17,7 @@ const SiteRoutes = () => (
 
       <Switch>
           <Route exact path='/' component={App}/>
-          <Route exact path='/eventpage' component={EventPage}/>
+          <Route exact path='/eventpage' component={EventPageV2}/>
           <Route exact path='/bookpage' component={Booking}/>
           <Route exact path='/loginpage' component={LoginPage}/>
           <Route exact path='/signup' component={SignUp}/>
@@ -26,7 +26,7 @@ const SiteRoutes = () => (
 
           <Route path='/hostlanding' component={HostLandingPage}/>
           <Route exact path='/experiencepage' component={ExperiencePage}/>
-          <Route path='/eventpage/:id' component={EventPage}/>
+          <Route path='/eventpage/:id' component={EventPageV2}/>
       </Switch>
 
   </BrowserRouter>

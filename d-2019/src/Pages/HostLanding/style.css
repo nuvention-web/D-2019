@@ -7,6 +7,10 @@
     margin-top: 1em;
 }
 
+.navheading.col {
+    align-content: left;
+}
+
 .container {
     margin: 0;
     padding: 0;
@@ -42,7 +46,12 @@
     margin: 1em;
     height: 20vw;
     width: 20vw;
+    min-width: 15em;
+    max-width: 20vw;
+    min-height: 15em;
     font-size: 1.3em;
+    color: white;
+    font-weight: bold;
 }
 
 .detail1 {
@@ -58,10 +67,8 @@
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    padding: 0;
+    width: 5em;
+    height: 5em;
 }
 
 .hiwimg {
@@ -75,4 +82,20 @@
     background-color: #df744A;
     border: none;
     white-space: nowrap;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.icons4 {
+    height: 10em;
+    width: 10em;
+    display: block;
+}
+
+.detailblock {
+    display: block;
+}
+
+.paddedlogo {
+    margin-right: 3em;
 }

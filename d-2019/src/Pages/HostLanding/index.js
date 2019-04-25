@@ -22,29 +22,36 @@ class HostLandingPage extends Component {
           slidesToShow: 1,
           slidesToScroll: 1
         };
-
+//<Col><Button>How it Works?</Button></Col>}
+//<Col><Button>Subscription Plan</Button></Col>
+//<Col><Button>Login</Button></Col>
     return (
       <Container>
       <Row className='navheading'>
-        <Col><Button>How it Works?</Button></Col>
-        <Col><Button>Subscription Plan</Button></Col>
-        <Col><Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Register</Button></Col>
-        <Col><Button>Login</Button></Col>
-        <Col><a href="./"><img className='logo' src={require('static/img/logo2.png')} /></a></Col>
+        <Col xs="8"><Button className='pull-left' href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Register</Button></Col>
+        <Col><a href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
       </Row>
       <Row className='introducing'>
         <div>
         <img className='bg-small-img logo' src={require('static/img/logo.png')} />
         <h2 className="large-text">Introducing FoodXP <br /> Your place to offer indulgent food experiences</h2>
-        <Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Try FoodXP NOW</Button>
+        <Button href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Try FoodXP NOW</Button>
         </div>
       </Row>
-      <Carousel/>
-      <Row className='details'>
-        <Col className='detail detail1'>Fill out the form to share details about your experience</Col>
-        <Col className='detail detail2'>A member of our team will contact you for onboarding</Col>
-        <Col className='detail detail3'>Your page goes live!</Col>
-        <Col className='detail detail4'>You are all set to offer your experience!</Col>
+      <Row className='details justify-content-center'>
+        <Col className='detail detail1'>
+        <img className='icons4' src={require('static/img/pen.png')} />
+        Fill out the form to share details about your experience
+        </Col>
+        <Col className='detail detail2'>
+        <img className='icons4' src={require('static/img/headphones.png')} />
+        A member of our team will contact you for onboarding</Col>
+        <Col className='detail detail3'>
+        <img className='icons4' src={require('static/img/clock.png')} />
+        Your page goes live!</Col>
+        <Col className='detail detail4'>
+        <img className='icons4' src={require('static/img/glasses.png')} />
+        You are all set to offer your experience!</Col>
       </Row>
       <Row className='howitworks'>
         <Col><CardImg className='hiwimg' src={require('static/img/howitworks.png')}></CardImg></Col>
@@ -52,7 +59,7 @@ class HostLandingPage extends Component {
       <Row>
         <div>
         <h2>Sign up to offer your experience <br /> For Free</h2>
-        <Button href="https://docs.google.com/forms/d/e/1FAIpQLScCu0uFGDuoj_dBwiUFpurNMPmhzDJODaGjKIvOf8PI81PSlQ/viewform?usp=sf_link">Start your free trial here</Button>
+        <Button href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Start your free trial here</Button>
         </div>
       </Row>
     </Container>
