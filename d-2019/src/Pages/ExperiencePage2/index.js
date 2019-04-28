@@ -34,7 +34,7 @@ class ExperiencePage2 extends Component {
               onChange={this.onChange}
               value={this.state.date}
             />
-            <h7><a href="#">Contact Detail</a></h7>
+            <h7>Contact us at (608) 312-2991 with any questions! </h7>
           </header>
           <div class="sticky-sidebar-content">
             <body class="sandbox">
@@ -61,13 +61,12 @@ class ExperiencePage2 extends Component {
 
               <Testimonial/>
               <Itinerary/>
-
+<br></br>
 
             </body>
               <div className="custom">
-                <Customization/>
-                <br></br>
-                <Col><Button className="button_color">Book Now</Button></Col>
+
+                <Col><Button className="button_color" href="https://www.facebook.com/events/2032847737020032/">Book Now</Button></Col>
               </div>
           </div>
           </Container>
@@ -79,3 +78,4 @@ class ExperiencePage2 extends Component {
 export default ExperiencePage2;
 // <TourInclusion/>
 // <BringToTour/>
+// <Customization/>

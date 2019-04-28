@@ -13,12 +13,12 @@ class HostDetail extends Component {
 
               <CardImg  src={require('../../../static/img/velvet.png')} alt="Card image cap" />
                 <h4>Host: Velvet Buffalo Cafe </h4>
-                <h4>Contact Me </h4>
+                
                 <div>
 
-                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="https://www.facebook.com/velvetbuffalo/" class="fa fa-facebook"></a>
 
-                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="https://www.instagram.com/velvetbuffalocafe/" class="fa fa-instagram"></a>
                   <a href="#" class="ba">Website</a>
                 </div>
 

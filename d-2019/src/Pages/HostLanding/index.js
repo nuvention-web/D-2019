@@ -28,11 +28,10 @@ class HostLandingPage extends Component {
     return (
       <Container>
       <Row className='navheading'>
-        <Col><Button  href="#">How it works</Button></Col>
-        <Col><Button  href="#">Subscription Plan</Button></Col>
-        <Col><Button  href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Register</Button></Col>
-        <Col><Button href="#">Login</Button></Col>
-        <Col><a  className='pull-right' href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
+
+        <Col xs="8"><Button  className='pull-left' href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Register</Button></Col>
+
+        <Col><a  href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
       </Row>
       <Row className='introducing'>
         <div>
@@ -67,7 +66,7 @@ class HostLandingPage extends Component {
       </Row>
       <Row>
         <div>
-          <h5>Send us message at <b><a className='color_email' href="mailto:foodxpnu@gmail.com">foodxpnu@gmail.com</a></b> with any questions</h5>
+          <h5>Shoot us a message at <b><a className='color_email' href="mailto:foodxpnu@gmail.com">foodxpnu@gmail.com</a> with any questions!</b> with any questions</h5>
         </div>
       </Row>
     </Container>
@@ -76,3 +75,8 @@ class HostLandingPage extends Component {
 }
 
 export default HostLandingPage
+
+//
+// <Col><Button  href="#">How it works</Button></Col>
+// <Col><Button  href="#">Subscription Plan</Button></Col>
+//   <Col><Button href="#">Login</Button></Col>

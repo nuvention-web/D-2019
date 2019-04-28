@@ -1,3 +1,9 @@
+.description_style{
+text-align: left;
+}
+.description_inner{
+  padding-left: 20px;
+}
 .right_column {
   width:70%;
 }
@@ -56,6 +62,7 @@ padding:0;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border-radius: 5px;
 }
 
 
