@@ -28,8 +28,11 @@ class HostLandingPage extends Component {
     return (
       <Container>
       <Row className='navheading'>
-        <Col xs="8"><Button className='pull-left' href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Register</Button></Col>
-        <Col><a href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
+        <Col><Button  href="#">How it works</Button></Col>
+        <Col><Button  href="#">Subscription Plan</Button></Col>
+        <Col><Button  href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Register</Button></Col>
+        <Col><Button href="#">Login</Button></Col>
+        <Col><a  className='pull-right' href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
       </Row>
       <Row className='introducing'>
         <div>
