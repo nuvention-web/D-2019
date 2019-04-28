@@ -62,6 +62,11 @@ class HostLandingPage extends Component {
         <Button href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Start your free trial here</Button>
         </div>
       </Row>
+      <Row>
+        <div>
+          <h5>Send us message at <b><a className='color_email' href="mailto:foodxpnu@gmail.com">foodxpnu@gmail.com</a></b> with any questions</h5>
+        </div>
+      </Row>
     </Container>
     );
   }

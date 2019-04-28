@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import {Button, Container, Card, CardTitle, CardText }from'reactstrap';
 
-
+import './style.css';
 // import staticImage1 from '../../static/img/event1.jpg';
 // import staticImage2 from '../../static/img/event1_host1.png';
 
@@ -9,7 +9,7 @@ import {Button, Container, Card, CardTitle, CardText }from'reactstrap';
 class ExperienceTitle extends Component {
   state = {
     title: 'May the 4th Be With You Pop-Up Bar',
-    detail: 'Themed cocktails, small plates, live music by the Justin Jay Trio, and a fully stocked cash bar.'
+    detail: 'Velvet Buffalo Cafe is known for its expertly crafted wine list and culinary menu, featuring small plates and stone-fired pizza, located in downtown Beloit, WI.'
 
   };
     render() {
@@ -19,7 +19,7 @@ class ExperienceTitle extends Component {
         <Fragment>
         <Container>
 
-          <CardTitle>{this.state.title}</CardTitle>
+          <h4><CardTitle><b>{this.state.title}<img className='logog' src={require('static/img/logo.png')} /></b></CardTitle></h4>
           <CardText>{this.state.detail}</CardText>
 
 

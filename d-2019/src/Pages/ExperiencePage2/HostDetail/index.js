@@ -11,16 +11,15 @@ class HostDetail extends Component {
         <Fragment>
           <Container>
 
-              <CardImg top width="50%" src={require('../../../static/img/velvet.png')} alt="Card image cap" />
-                <h1>Host: Velvet Buffalo Cafe </h1>
-                <h2>Contact Me </h2>
+              <CardImg  src={require('../../../static/img/velvet.png')} alt="Card image cap" />
+                <h4>Host: Velvet Buffalo Cafe </h4>
+                <h4>Contact Me </h4>
                 <div>
-                  <a href="#" class="fa fa-facebook"></a>
+
                   <a href="#" class="fa fa-twitter"></a>
-                  <a href="#" class="fa fa-google"></a>
-                  <a href="#" class="fa fa-linkedin"></a>
-                  <a href="#" class="fa fa-youtube"></a>
+
                   <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="ba">Website</a>
                 </div>
 
           </Container>
@@ -30,3 +29,8 @@ class HostDetail extends Component {
   }
 
 export default HostDetail;
+
+// <a href="#" class="fa fa-facebook"></a>
+// <a href="#" class="fa fa-google"></a>
+// <a href="#" class="fa fa-linkedin"></a>
+// <a href="#" class="fa fa-youtube"></a>

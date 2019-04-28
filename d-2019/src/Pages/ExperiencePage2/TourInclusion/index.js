@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Card,Container, CardText} from 'reactstrap';
+import '../style.css';
 
 class TourInclusion extends Component {
 
@@ -9,7 +10,7 @@ class TourInclusion extends Component {
       return (
         <Fragment>
           <Container>
-<Card>
+<Card className="empty_box2">
 <CardText>
 Food Highlights:
 ​</CardText>

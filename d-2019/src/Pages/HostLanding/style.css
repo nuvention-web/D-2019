@@ -1,3 +1,7 @@
+.color_email{
+  color: #FD7E14;
+}
+
 * {
     text-align: center;
     margin: 0 auto 0 auto;
@@ -52,6 +56,10 @@
     font-size: 1.3em;
     color: white;
     font-weight: bold;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+
 }
 
 .detail1 {

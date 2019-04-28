@@ -16,7 +16,10 @@ class ExperienceDetail extends Component {
     transportation: "Public Transit",
     duration_hr: 4,
     date: "SATURDAY MAY 4, 2019",
-    age: "21+"
+    age: "21+",
+    temp:"SATURDAY MAY 4​, 2019",
+    temp2:"​5 p.m. | Live music starts at 8 p.m. | 21+ | $10 cover charge"
+
 
   };
     render() {
@@ -25,12 +28,8 @@ class ExperienceDetail extends Component {
       return (
         <Fragment>
         <Container>
-                <CardText>Date: {this.state.date}</CardText>
-                <CardText>Price: {this.state.currency}{this.state.value}</CardText>
-                <CardText>Duration: {this.state.duration_hr} hrs </CardText>
-                <CardText>Time: {this.state.time}</CardText>
-                <CardText>Ages: {this.state.age} </CardText>
-                <CardText>Mode of transportation: {this.state.transportation}</CardText>
+            <CardText>{this.state.temp}</CardText>
+            <CardText>{this.state.temp2}</CardText>
         </Container>
         </Fragment>
       );
@@ -38,6 +37,13 @@ class ExperienceDetail extends Component {
   }
 
 export default ExperienceDetail;
+
+// <CardText>Date: {this.state.date}</CardText>
+// <CardText>Price: {this.state.currency}{this.state.value}</CardText>
+// <CardText>Duration: {this.state.duration_hr} hrs </CardText>
+// <CardText>Time: {this.state.time}</CardText>
+// <CardText>Ages: {this.state.age} </CardText>
+// <CardText>Mode of transportation: {this.state.transportation}</CardText>
 
 // <br></br>
 //   <img top width="70%" src={staticImage1} alt="static image"/>

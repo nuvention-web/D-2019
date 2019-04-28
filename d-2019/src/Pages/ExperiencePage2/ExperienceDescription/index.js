@@ -14,9 +14,10 @@ class ExperienceDescription extends Component {
       return (
         <Fragment>
         <Container>
-                <CardText>In a galaxy far, far away... Celebrate Star Wars Day in style at downtown Beloit’s only rooftop event venue.</CardText>
-                <CardText>dfsadfaidsfjkljkldasfkldjfljkdfaslfdsalkjdafsljkadfslkjdfsalkdsaflasd
-                dfdsfdfdsfds,fdsfkldslkfdskldsafkfdkdfksdfskadfks</CardText>
+                <CardText>
+In a galaxy far, far away... Celebrate Star Wars Day in style at downtown Beloit’s only rooftop event venue featuring themed cocktails (like creamy Bantha Milk!), live music by the Justin Jay Trio, and a fully stocked cash bar. Star Wars fan or not, come dressed in costume and we'll waive the cover charge. This pop-up bar is going to be out of this world and will make you question your allegiance to the Rebellion and consider joining the "darkside". May the 4th be with you.
+                </CardText>
+                
         </Container>
         </Fragment>
       );

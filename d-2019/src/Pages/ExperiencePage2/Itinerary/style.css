@@ -1,0 +1,18 @@
+.itinery{
+  color:white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.indent{
+  padding-left: 25px;
+  margin:0;
+  font-size: 20px;
+  padding-right:35%;
+  
+}
+
+.no_indent{
+  margin-bottom: 25px;
+  font-size: 25px;
+}

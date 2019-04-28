@@ -18,6 +18,10 @@
   clear:both;
 } */
 
+.card_padding{
+padding:0;
+
+}
 .sticky-sidebar-content .sandbox{
   width:75%;
   margin-right: 10%;
@@ -26,12 +30,12 @@
 }
 
 .sticky-sidebar {
-  background: #e7eef1;
-  padding: 40px 40px 60px;
+  /* background: #e7eef1; */
+  padding: 4px 4px 10px;
   box-sizing: border-box;
-  border-radius: 2px;
-  box-shadow: 0 12px 0 -6px #fa90a3;
-  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 12px 0 -6px white;
+  /* margin-top: 10px; */
   position: fixed;
   left: 1%;
   width: 18%;
@@ -54,8 +58,52 @@
   margin: 5px 2px;
 }
 
+
+.ba{
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
 .fa:hover {
     opacity: 0.7;
+}
+.light_mintbox{
+  background-color: #9DD1BB ;
+  color: white;
+  font-weight:bold;
+  border:none;
+  border-radius: 0;
+}
+.button_color{
+  background-color: #9DD1BB;
+  font-size: 15px;
+}
+.row_size{
+  padding:0;
+}
+.empty_box2{
+  color: black;
+  border:none;
+  border-radius: 0;
+  position: relative;
+  top: 6%;
+}
+.empty_box{
+  color: black;
+  font-style: italic;
+  border:none;
+  border-radius: 0;
+  position: relative;
+  top: 6%;
+}
+.dark_mintbox{
+  background-color: #61BA95;
+  color:white;
+  font-weight: bold;
+  border:none;
+  border-radius: 0;
 }
 
 .fa-facebook {

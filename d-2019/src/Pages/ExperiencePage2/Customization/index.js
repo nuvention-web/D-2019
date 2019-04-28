@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Container,Row, Col, Button} from 'reactstrap';
+import '../style.css';
 
 class Customization extends Component {
 
@@ -9,23 +10,21 @@ class Customization extends Component {
       return (
         <Fragment>
           <Container>
-<Row>
-            <h1>Customization</h1>
-            </Row>
-            <Row>
-            <h3>Ask Velvet Buffalo if you have ...</h3>
-            </Row>
+<div>
+            <h5><b>Customization</b></h5>
+</div>
+<div>
+            <h7>Ask Velvet Buffalo if you have ...</h7>
+</div>
 
-            <Row>
+            <Row className="row_size">
               <Col>
-                <Button>dietary restrictions</Button>
+                <Button className="button_color">dietary restrictions</Button>
               </Col>
               <Col>
-                <Button>Special requests</Button>
+                <Button className="button_color">Special requests</Button>
               </Col>
-              <Col>
-                <Button>Others</Button>
-              </Col>
+
             </Row>
           </Container>
         </Fragment>
