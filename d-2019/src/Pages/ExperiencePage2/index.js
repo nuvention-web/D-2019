@@ -27,31 +27,31 @@ class ExperiencePage2 extends Component {
 
       return (
         <Fragment>
-          <Container>
+          <Container className="background_color">
           <header class="sticky-sidebar">
-            <h7><b>Available Dates:</b></h7>
+            <h7><b>Calendar</b></h7>
             <Calendar
               onChange={this.onChange}
               value={this.state.date}
             />
             <h7>Contact us at (608) 312-2991 with any questions! </h7>
           </header>
-          <div class="sticky-sidebar-content">
-            <body class="sandbox">
-              <CardDeck>
+          <div class="sticky-sidebar-content" >
+            <body className="background_color" class="sandbox" >
+              <CardDeck className="background_color">
                 <div className="left_column">
-                  <Card body className="card_padding light_mintbox">
+                  <Card body className="card_padding light_mintbox background_color">
                     <HostDetail/>
                   </Card>
                 </div>
-                <div className="right_column">
-                  <Card body className="dark_mintbox">
+                <div className="right_column background_color">
+                  <Card body className="dark_mintbox background_color">
                     <ExperienceTitle/>
                   </Card>
-                  <Card body className="light_mintbox">
+                  <Card body className="light_mintbox background_color">
                     <ExperienceDetail/>
                   </Card>
-                  <Card body className="empty_box">
+                  <Card body className="empty_box background_color">
                     <ExperienceDescription />
                   </Card>
                 </div>

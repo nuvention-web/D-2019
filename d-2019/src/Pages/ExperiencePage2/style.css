@@ -1,3 +1,7 @@
+.background_color{
+  background-color: #EBFDF6;
+}
+
 .description_style{
 text-align: left;
 }
@@ -33,6 +37,7 @@ padding:0;
   margin-right: 10%;
   padding-left: 5%;
   float:right;
+  background-color: #EBFDF6;
 }
 
 .sticky-sidebar {
@@ -40,7 +45,7 @@ padding:0;
   padding: 4px 4px 10px;
   box-sizing: border-box;
   border-radius: 10px;
-  box-shadow: 0 12px 0 -6px white;
+
 
   position: fixed;
   left: 1%;

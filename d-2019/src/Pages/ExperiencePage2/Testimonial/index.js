@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import {Container} from 'reactstrap';
 import './style.css';
+import '../style.css';
 
 class Testimonial extends Component {
 
@@ -10,7 +11,7 @@ class Testimonial extends Component {
       return (
         <Fragment>
           <Container>
-          <div  className="testimonial_padding">
+          <div  className="testimonial_padding background_color">
           <i>“We recently had a company meeting here. For lunch they served us buffet style with a great selection of sandwiches, salad and pizza! Everyone loved the food and the service was great.” -BClarke292 </i>
 
           <br></br>

@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import {Container, Card, CardBody, CardText,CardImg, CardTitle, CardImgOverlay} from 'reactstrap';
 
 import './style.css';
+import '../style.css';
 
 class Itinerary extends Component {
 

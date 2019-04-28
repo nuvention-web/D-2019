@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Card, Container} from 'reactstrap';
+import '../style.css';
 
 class BringToTour extends Component {
 

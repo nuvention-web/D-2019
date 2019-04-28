@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import {Button, Container, Card, CardTitle, CardText }from'reactstrap';
 
 import './style.css';
+import '../style.css';
 // import staticImage1 from '../../static/img/event1.jpg';
 // import staticImage2 from '../../static/img/event1_host1.png';
 

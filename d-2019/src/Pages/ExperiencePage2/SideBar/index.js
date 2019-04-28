@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 // import EventList from './Components/EventList/index.js';
 import { Container } from 'reactstrap';
 import './style.css';
+import '../style.css';
 
 
 class SideBar extends Component {
