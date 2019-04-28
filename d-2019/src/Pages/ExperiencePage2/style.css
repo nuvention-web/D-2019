@@ -30,12 +30,12 @@ padding:0;
 }
 
 .sticky-sidebar {
-  /* background: #e7eef1; */
+  background: #e7eef1;
   padding: 4px 4px 10px;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0 12px 0 -6px white;
-  /* margin-top: 10px; */
+
   position: fixed;
   left: 1%;
   width: 18%;
