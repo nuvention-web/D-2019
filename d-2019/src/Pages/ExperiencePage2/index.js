@@ -66,7 +66,7 @@ class ExperiencePage2 extends Component {
             </body>
               <div className="custom">
 
-                <Button className="button_color" href="https://www.facebook.com/events/2032847737020032/">Book Now</Button>
+                <Button className="button_color" href="https://www.facebook.com/events/2032847737020032/">Check in on Facebook</Button>
               </div>
           </div>
           </Container>
