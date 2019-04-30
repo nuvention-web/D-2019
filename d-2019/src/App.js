@@ -9,7 +9,21 @@ import WelcomeBanner from './Components/WelcomeBanner/index.js';
 import HostLandingPage from './Pages/HostLanding/index.js';
 import './App.css';
 import { NavLink } from 'react-router-dom';
+// import ReactGA from 'react-ga';
+//
+//
+// function initializeReactGA() {
+//     ReactGA.initialize('UA-139316218-1');
+//     ReactGA.pageview('/hostlanding');
+//     ReactGA.pageview('/experiencepage1');
+//     ReactGA.pageview('/experiencepage2');
+// }
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-139316218-1');
+ReactGA.pageview('/hostlanding');
+ReactGA.pageview('/experiencepage1');
+ReactGA.pageview('/experiencepage2');
 
 
 class App extends Component {
