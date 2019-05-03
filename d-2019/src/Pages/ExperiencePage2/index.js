@@ -20,19 +20,23 @@ class ExperiencePage2 extends Component {
       date: new Date(2019, 4, 4),
     }
 
-    onChange = date => this.setState({ date })
+   
 
 
     render() {
 
+      const tileClassNames = ({ date, view }) => date.getDate() === 4 && date.getMonth() === 4 ? 'eventdate' : '';
+      const availables = ({ date, view }) => date.getDate() === 4 && date.getMonth() === 4;
+      const unavailables = ({ date, view }) => !(date.getDate() === 4 && date.getMonth() === 4);
       return (
         <Fragment>
           <Container className="background_color">
           <header class="sticky-sidebar">
             <h7><b>Calendar</b></h7>
             <Calendar
-              onChange={this.onChange}
-              value={this.state.date}
+            tileClassName={tileClassNames}
+            minDate={new Date()}
+            tileDisabled={unavailables}
             />
             <h7>Contact us at (608) 312-2991 with any questions! </h7>
           </header>

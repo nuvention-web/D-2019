@@ -14,10 +14,25 @@ class ExperienceDescription extends Component {
       return (
         <Fragment>
         <Container>
-                <CardText>dfsadfaidsfjkljkldasfkldjfljkdfaslfdsalkjdafsljkadfslkjdfsalkdsaflasd
-                dfdsfdfdsfds,fdsfkldslkfdskldsafkfdkdfksdfskadfks</CardText>
-                <CardText>dfsadfaidsfjkljkldasfkldjfljkdfaslfdsalkjdafsljkadfslkjdfsalkdsaflasd
-                dfdsfdfdsfds,fdsfkldslkfdskldsafkfdkdfksdfskadfks</CardText>
+        <Card>
+
+<CardText>
+Food Highlights:
+1893 World's Fair Brownies,
+Locally Crafted Beer (non-alcohol options too),
+Dumplings,
+Taiwanese Boba (Tapioca) Tea/Smoothie,
+Mexican Street Food-Tamales and Carnitas,
+Churros,
+Italian Bombolinis
+​</CardText>
+<CardText>
+Included:
+Guide,
+All food and drinks (noted above),
+CTA day pass,
+</CardText>
+</Card>
         </Container>
         </Fragment>
       );

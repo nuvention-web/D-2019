@@ -13,6 +13,7 @@ import Customization from './Customization';
 import ExperienceTitle from './ExperienceTitle';
 import ExperienceDescription from './ExperienceDescription';
 import './style.css';
+import Calendar from 'react-calendar';
 
 
 
@@ -21,12 +22,22 @@ class ExperiencePage1 extends Component {
 
     render() {
 
+        var days = [1, 4, 5, 0]
+      const tileClassNames = ({ date, view }) => days.includes(date.getDay()) ? 'eventdate' : '';
+      const availables = ({ date, view }) => days.includes(date.getDay());
+      const unavailables = ({ date, view }) => !(days.includes(date.getDay()));
+
       return (
         <Fragment>
           <Container>
           <header class="sticky-sidebar">
-            <h5>Available Dates: 12/1,~~~</h5>
-            <h5>Contact Detail: </h5>
+          <h7><b>Calendar</b></h7>
+            <Calendar
+            tileClassName={tileClassNames}
+            minDate={new Date()}
+            tileDisabled={unavailables}
+            />
+            <h7> <a href="https://www.606tours.com/">www.606tours.com</a></h7>
           </header>
           <div class="sticky-sidebar-content">
             <body class="sandbox">
@@ -51,13 +62,10 @@ class ExperiencePage1 extends Component {
               </CardDeck>
               <Testimonial/>
               <Itinerary/>
-              <TourInclusion/>
               <BringToTour/>
             </body>
             <div className="custom">
-              <Customization/>
-              <br></br>
-              <Col><Button>Book Now</Button></Col>
+              <Button href="mailto:info@606tours.com">Ask Kari a Question!</Button>
               </div>
           </div>
           </Container>

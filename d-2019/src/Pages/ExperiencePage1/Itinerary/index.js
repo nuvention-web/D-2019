@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Container, Card, CardBody, CardText,CardImg, CardTitle, CardImgOverlay} from 'reactstrap';
+import './style.css';
 
 class Itinerary extends Component {
 
@@ -11,7 +12,7 @@ class Itinerary extends Component {
           <Container>
             <Card inverse>
             <CardImg width="100%" src={require('../../../static/img/chicago_chinatown.jpg')} alt="Card image cap" />
-            <CardImgOverlay>
+            <CardImgOverlay className='itinerarytext'>
               <CardTitle>
               <big>  Detailed Itinerary</big>
               </CardTitle>

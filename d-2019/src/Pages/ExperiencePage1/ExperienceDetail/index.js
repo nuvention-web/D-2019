@@ -10,7 +10,7 @@ class ExperienceDetail extends Component {
   state = {
     description: 'You will arrive at Off Color Taproom and get a beverage of your choice (pairing suggestions are provided). Then we will go over a brief 101, then go into a tasting of 5 artisanal cheeses each paired with an accompaniment and bread or crackers. You will hear the stories behind the cheese and learn how to properly enjoy them. Each person gets about 1/4lb of cheese so expect to leave feeling full and satisfied.',
     currency: "$",
-    value: "10.00",
+    value: "99",
     time_start: "10.30 a.m",
     time_end: "2.30 p.m",
     transportation: "Public Transit",

@@ -1,3 +1,7 @@
+body {
+  background-color: #EBFDF6;
+}
+
 .right_column {
   width:70%;
 }
@@ -86,4 +90,8 @@
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.eventdate {
+  background-color: aquamarine;
 }
