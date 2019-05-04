@@ -27,10 +27,7 @@ Churros,
 Italian Bombolinis
 ​</CardText>
 <CardText>
-Included:
-Guide,
-All food and drinks (noted above),
-CTA day pass,
+Included: Guide, All Food and Drinks, CTA Day Pass
 </CardText>
 </Card>
         </Container>
