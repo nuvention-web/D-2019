@@ -95,3 +95,20 @@ body {
 .eventdate {
   background-color: aquamarine;
 }
+
+.exptitle.card {
+  font-size: 2vw;
+}
+
+.expdetail.card, .bringit {
+  font-size: 1.5vw;
+}
+
+.itllmakeyouliveforever {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.othernotes {
+  text-align: left;
+}

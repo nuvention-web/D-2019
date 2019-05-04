@@ -13,7 +13,7 @@ class ExperienceDetail extends Component {
     value: "99",
     time_start: "10.30 a.m",
     time_end: "2.30 p.m",
-    transportation: "Public Transit",
+    transportation: "CTA Public Transit",
     duration_hr: 4
 
   };

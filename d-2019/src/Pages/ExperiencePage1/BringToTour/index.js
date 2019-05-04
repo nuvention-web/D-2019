@@ -11,8 +11,8 @@ class BringToTour extends Component {
           <Container>
 <Card>
 In the summer, we expect warm weather. For your comfort, bring along
-Sunglasses
-Hat or baseball cap
+sunglasses, a hat or baseball cap.
+
 
 </Card>
           </Container>

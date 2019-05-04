@@ -9,9 +9,9 @@ class Itinerary extends Component {
 
       return (
         <Fragment>
-          <Container>
+          <Container className='imgcontainer'>
             <Card inverse>
-            <CardImg width="100%" src={require('../../../static/img/chicago_chinatown.jpg')} alt="Card image cap" />
+            <CardImg className='expimg' width="100%" src={require('../../../static/img/chicago_chinatown.jpg')} alt="Card image cap" />
             <CardImgOverlay className='itinerarytext'>
               <CardTitle>
               <big>  Detailed Itinerary</big>

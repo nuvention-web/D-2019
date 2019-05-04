@@ -2,8 +2,27 @@
   font-weight: bold;
   margin-top: 1vh;
   margin-bottom: 1vh;
+  display: block;
 }
 
-.btn {
-  margin-top: 1vh;
+.itinerarytext {
+  font-size: 2.3vw;
+  line-height: 3vw;
+  width: 60%;
+  background-color: #007bb599;
+  clear: both;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.expimg {
+  clear: both;
+  height: auto;
+  min-height: 10em;
+}
+
+.imgcontainer {
+  clear: both;
+  min-width: 800px;
 }

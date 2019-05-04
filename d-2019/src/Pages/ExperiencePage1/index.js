@@ -37,7 +37,7 @@ class ExperiencePage1 extends Component {
             minDate={new Date()}
             tileDisabled={unavailables}
             />
-            <h7> <a href="https://www.606tours.com/">www.606tours.com</a></h7>
+            <h7>Tours run on Mondays, Thursdays, Fridays and Sundays</h7><Button href="https://www.606tours.com/">Book Now</Button>
           </header>
           <div class="sticky-sidebar-content">
             <body class="sandbox">
@@ -48,11 +48,11 @@ class ExperiencePage1 extends Component {
                 </Card>
                 </div>
                 <div className="right_column">
-                  <Card body>
-                    <ExperienceTitle/>
+                  <Card body className="exptitle">
+                    <ExperienceTitle />
                   </Card>
-                  <Card body>
-                    <ExperienceDetail/>
+                  <Card body className="expdetail">
+                    <ExperienceDetail />
                   </Card>
                   <Card body>
                     <ExperienceDescription/>
@@ -60,9 +60,22 @@ class ExperiencePage1 extends Component {
                 </div>
 
               </CardDeck>
-              <Testimonial/>
+              <div className='itllmakeyouliveforever'>
+                <Testimonial/>
+                </div>
               <Itinerary/>
-              <BringToTour/>
+              <div className='bringit'>
+                <BringToTour/>
+                </div>
+                <div className='othernotes'>
+                <Card>
+                <ul>
+                <li>Your CTA pass will let you explore Chicago after the tour is done for the rest of the day</li>
+<li>You’ll choose your menu options in advance to account for dietary preferences</li>
+<li>Yes, you can bring your baby, just let Kari know in advance</li>
+</ul>
+                </Card>
+                </div>
             </body>
             <div className="custom">
               <Button href="mailto:info@606tours.com">Ask Kari a Question!</Button>
