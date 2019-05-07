@@ -12,6 +12,7 @@ import HostPage from './Pages/HostPage';
 import HostLandingPage from './Pages/HostLanding';
 import ExperiencePage1 from './Pages/ExperiencePage1';
 import ExperiencePage2 from './Pages/ExperiencePage2';
+import ClientLanding from './Pages/ClientLanding';
 
 const SiteRoutes = () => (
   <BrowserRouter onUpdate={() => window.scrollTo(0, 0)}>
@@ -29,6 +30,7 @@ const SiteRoutes = () => (
           <Route exact path='/experiencepage1' component={ExperiencePage1}/>
           <Route exact path='/experiencepage2' component={ExperiencePage2}/>
           <Route path='/eventpage/:id' component={EventPageV2}/>
+          <Route path='/welcome' component={ClientLanding}/>
       </Switch>
 
   </BrowserRouter>

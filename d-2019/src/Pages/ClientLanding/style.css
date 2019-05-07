@@ -1,0 +1,145 @@
+
+.color_email{
+  color: #FD7E14;
+}
+
+* {
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.navheading.row {
+    margin-top: 1em;
+}
+
+.navheading.col {
+    align-content: left;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: none;
+}
+
+.row {
+    margin: 0;
+    padding: 1em 0 1em 0;
+    width: 100%;
+}
+
+.row h2 {
+    width: 100%;
+}
+.introducing {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.details {
+    padding: 0 1em;
+    width: 100%;
+}
+
+.details col {
+    padding: 1em;
+}
+
+.details h2 {
+    width: 100%;
+}
+
+.details col {
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+.detail {
+    background-color: #df744A;
+    margin: 0.5em;
+    height: 20vw;
+    width: 25%;
+    min-width: 15em;
+    min-height: 15em;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+.detail h2 {
+    margin: 1em 0;
+}
+
+.detail1 {
+    background-color: #ffbc8e;
+}
+
+.detail3 {
+    background-color: #9dd1bb;
+}
+
+.detail4 {
+    background-color: #61ba95;
+}
+
+.logo {
+    width: 5em;
+    height: 5em;
+}
+
+.hiwimg {
+    margin: 0;
+    padding: 0;
+    min-width: none;
+    min-height: none;
+}
+
+.btn {
+    background-color: #df744A;
+    border: none;
+    white-space: nowrap;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card .btn {
+    background-color: #9dd1bb;
+}
+
+.card {
+    width: 100%;
+}
+
+.icons4 {
+    height: 10em;
+    width: 10em;
+    display: block;
+}
+
+.detailblock {
+    display: block;
+}
+
+.paddedlogo {
+    margin-right: 3em;
+}
+
+.block2 {
+    display: none;
+}
+
+.overlaything {
+    width: 100%;
+    font-size: 2em;
+}
