@@ -29,14 +29,14 @@ class ClientLanding extends Component {
       <Container>
       <Row className='navheading'>
 
-        <Col xs="8"><Button  className='pull-left' href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Sign Up to Receive Updates on Both New and Current Experiences</Button></Col>
+        <Col xs="8"><Button  className='pull-left' href="https://forms.gle/mCGoaEppXdJnjqHb7">Sign Up to Receive Updates on Both New and Current Experiences</Button></Col>
 
         <Col><a  href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
       </Row>
       <Row className='introducing'>
         <div>
         <h2 className="large-text">Indulge in flavorful local experiences</h2>
-        <h3>FoodXP connects foodies (like you!) with Chicago area tour guides adn venues offering local and unique culinary experiences</h3>
+        <h3>FoodXP connects foodies (like you!) with Chicago area tour guides and venues offering local and unique culinary experiences</h3>
         </div>
       </Row>
       <Row className='block2'>
@@ -45,7 +45,7 @@ class ClientLanding extends Component {
         </div>
       </Row>
       <Row className='details justify-content-center'>
-      <h2 className="large-text">How It Works</h2>
+      <h1 className="large-text"><b>How It Works</b></h1>
         <Col className='detail detail1'>
         <h2 className='blob'> Select A Featured Experience </h2>
         <h4> Pick from neighborhood tours and unique events </h4>
@@ -61,7 +61,7 @@ class ClientLanding extends Component {
         <h4> Reserve your spot, receive confirmation, and enjoy the best of Chicago's local eats </h4></Col>
       </Row>
       <Row>
-      <h2>Featurd Experiences </h2>
+      <h2>Featured Experiences </h2>
           <Col>
         <Card inverse>
             <CardImg className='expimg' width="100%" src={require('static/img/may4.png')} alt="Card image cap" />
@@ -77,7 +77,7 @@ class ClientLanding extends Component {
               5 p.m. | Live Music starts at 8 p.m. <br />
               21+ | $10 cover charge
               </CardText>
-              <Button href='http://d-2019.firebaseapp.com/experience1'>Explore More</Button>
+              <Button href='http://d-2019.firebaseapp.com/experiencepage1'>Explore More</Button>
               </CardImgOverlay>
             </Card>
             </Col>
@@ -105,7 +105,7 @@ class ClientLanding extends Component {
               <CardText>
               Mode of transport: CTA Public Trasit
               </CardText>
-              <Button href='http://d-2019.firebaseapp.com/experience2'>Explore More</Button>
+              <Button href='http://d-2019.firebaseapp.com/experiencepage2'>Explore More</Button>
               </CardImgOverlay>
             </Card>
             </Col>
@@ -113,7 +113,7 @@ class ClientLanding extends Component {
       </Row>
       <Row>
         <div>
-          <h5>Send us a message at <b><a className='color_email' href="mailto:foodxpnu@gmail.com">foodxpnu@gmail.com</a> with any questions</b> with any questions</h5>
+          <h5>Send us a message at <b><a className='color_email' href="mailto:foodxpnu@gmail.com">foodxpnu@gmail.com</a> with any questions</b></h5>
         </div>
 
       </Row>
