@@ -44,6 +44,7 @@ class ClientLanding extends Component {
         <h2 className="large-text">Explore the Chicago Area Food Scene</h2>
         </div>
       </Row>
+      <Carousel/>
       <Row className='details justify-content-center'>
       <h1 className="large-text"><b>How It Works</b></h1>
         <Col className='detail detail1'>
@@ -60,7 +61,9 @@ class ClientLanding extends Component {
         <h2 className='blob'> Book and Attend Your Experience </h2>
         <h4> Reserve your spot, receive confirmation, and enjoy the best of Chicago's local eats </h4></Col>
       </Row>
+
       <Row>
+
       <h2>Featured Experiences </h2>
           <Col>
         <Card inverse>

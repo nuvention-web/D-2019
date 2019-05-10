@@ -12,6 +12,8 @@ import HostPage from './Pages/HostPage';
 import HostLandingPage from './Pages/HostLanding';
 import ExperiencePage1 from './Pages/ExperiencePage1';
 import ExperiencePage2 from './Pages/ExperiencePage2';
+import ExperiencePage3 from './Pages/ExperiencePage3';
+import ExperiencePage4 from './Pages/ExperiencePage4';
 import ClientLanding from './Pages/ClientLanding';
 
 const SiteRoutes = () => (
@@ -29,6 +31,9 @@ const SiteRoutes = () => (
           <Route path='/hostlanding' component={HostLandingPage}/>
           <Route exact path='/experiencepage1' component={ExperiencePage1}/>
           <Route exact path='/experiencepage2' component={ExperiencePage2}/>
+          <Route exact path='/experiencepage3' component={ExperiencePage3}/>
+          <Route exact path='/experiencepage4' component={ExperiencePage4}/>
+
           <Route path='/eventpage/:id' component={EventPageV2}/>
           <Route path='/welcome' component={ClientLanding}/>
       </Switch>

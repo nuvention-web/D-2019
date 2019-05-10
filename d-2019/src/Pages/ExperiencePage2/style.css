@@ -11,9 +11,7 @@ text-align: left;
 .right_column {
   width:70%;
 }
-.left_column {
-  width:30%;
-}
+
 .custom {
   padding:10%;
 }
@@ -87,6 +85,7 @@ padding:0;
   font-weight:bold;
   border:none;
   border-radius: 0;
+
 }
 .button_color{
   background-color: #9DD1BB;
