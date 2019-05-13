@@ -13,6 +13,7 @@ import Customization from './Customization';
 import ExperienceTitle from './ExperienceTitle';
 import ExperienceDescription from './ExperienceDescription';
 import './style.css';
+
 import Calendar from 'react-calendar';
 
 
@@ -29,7 +30,7 @@ class ExperiencePage1 extends Component {
 
       return (
         <Fragment>
-          <Container>
+          <Container className="cc">
           <header class="sticky-sidebar">
           <h7><b>Calendar</b></h7>
             <Calendar
@@ -37,42 +38,45 @@ class ExperiencePage1 extends Component {
             minDate={new Date()}
             tileDisabled={unavailables}
             />
-            <h7>Tours run on Mondays, Thursdays, Fridays and Sundays</h7><Button href="https://www.606tours.com/">Book Now</Button>
+            <h7>Tours run on Mondays, Thursdays, Fridays and Sundays</h7>
+            <br></br><Button href="https://www.606tours.com/">Book Now</Button>
           </header>
           <div class="sticky-sidebar-content">
-            <body class="sandbox">
-              <CardDeck>
+            <body className="background_color" class="sandbox">
+              <CardDeck  className="background_color">
                 <div className="left_column">
-                <Card body>
+                <Card body className="card_padding light_mintbox background_color">
                   <HostDetail/>
                 </Card>
                 </div>
-                <div className="right_column">
-                  <Card body className="exptitle">
-                    <ExperienceTitle />
+                <div className="right_column background_color">
+                  <Card body className="dark_mintbox background_color">
+                    <ExperienceTitle/>
                   </Card>
-                  <Card body className="expdetail">
-                    <ExperienceDetail />
+                  <Card body className=" light_mintbox background_color">
+                    <ExperienceDetail/>
                   </Card>
-                  <Card body>
-                    <ExperienceDescription/>
+                  <Card body className="empty_box0 dark_mintbox background_color">
+                    <ExperienceDescription />
                   </Card>
                 </div>
 
               </CardDeck>
               <div className='itllmakeyouliveforever'>
-                <Testimonial/>
+                <Testimonial className='empty_box0'/>
                 </div>
               <Itinerary/>
               <div className='bringit'>
                 <BringToTour/>
                 </div>
                 <div className='othernotes'>
-                <Card>
+                <Card className="empty_box0 background_color">
                 <ul>
-                <li>Your CTA pass will let you explore Chicago after the tour is done for the rest of the day</li>
-<li>You’ll choose your menu options in advance to account for dietary preferences</li>
-<li>Yes, you can bring your baby, just let Kari know in advance</li>
+                <p>Your CTA pass will let you explore Chicago after the tour is done for the rest of the day
+<br></br>
+You’ll choose your menu options in advance to account for dietary preferences
+<br></br>
+Yes, you can bring your baby, just let Kari know in advance</p>
 </ul>
                 </Card>
                 </div>

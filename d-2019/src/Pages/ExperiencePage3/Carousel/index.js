@@ -44,18 +44,18 @@ export default class Carousel extends Component {
     return (
       <div>
        <Slider {...settings}>
-         <div >
-           <img className="productSlider" src={require('../../../static/img/e_Slide show 1.jpg')} />
-         </div>
-         <div >
-           <img className="productSlider" src={require('../../../static/img/e_Slide show 2.jpg')} />
-         </div>
-         <div >
-           <img className="productSlider" src={require('../../../static/img/e_Slide show 1.jpg')} />
-         </div>
-         <div >
-           <img className="productSlider" src={require('../../../static/img/e_Slide show 2.jpg')} />
-         </div>
+       <div >
+         <img className="productSlider" src={require('../../../static/img/p_Slideshow1.jpg')} />
+       </div>
+       <div >
+         <img className="productSlider" src={require('../../../static/img/p_Slideshow2.jpg')} />
+       </div>
+       <div >
+         <img className="productSlider" src={require('../../../static/img/p_Slideshow3.jpg')} />
+       </div>
+       <div >
+         <img className="productSlider" src={require('../../../static/img/p_Slideshow4.jpg')} />
+       </div>
        </Slider>
      </div>
    );

@@ -9,12 +9,12 @@ class BringToTour extends Component {
       return (
         <Fragment>
           <Container>
-<Card>
+
 In the summer, we expect warm weather. For your comfort, bring along
 sunglasses, a hat or baseball cap.
 
 
-</Card>
+
           </Container>
         </Fragment>
       );

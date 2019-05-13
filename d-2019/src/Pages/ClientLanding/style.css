@@ -1,3 +1,38 @@
+.hi{
+  color:#9DD1BB;
+  margin-left: 20%;
+  margin-right:20%;
+}
+
+.one{
+text-align: left;
+color:#9DD1BB;
+}
+.two{
+  margin-left: 10px;
+}
+
+.three{
+padding-top: 50px;
+
+}
+  .banner {
+
+      width: 100%;
+      height: 350px;
+      overflow: hidden;
+  }
+
+  .imgimg {
+
+      height: 300px;
+      margin: 0px 0 0 0;
+  }
+
+.imgimg1{
+  top: 100px;
+
+}
 
 .color_email{
   color: #FD7E14;

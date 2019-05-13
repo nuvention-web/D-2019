@@ -15,6 +15,7 @@ import ExperienceDescription from './ExperienceDescription';
 import Video from './Video';
 import './style.css';
 import Calendar from 'react-calendar';
+import Carousel from './Carousel';
 
 
 
@@ -29,7 +30,7 @@ class ExperiencePage3 extends Component {
 
       return (
         <Fragment>
-          <Container>
+          <Container className="cc">
 
           <header class="sticky-sidebar">
           <h7><b>Calendar</b></h7>
@@ -71,6 +72,8 @@ class ExperiencePage3 extends Component {
               <div className='itllmakeyouliveforever'>
                 <Testimonial/>
                 </div>
+                <br></br>
+                <Carousel/>
               <Itinerary/>
               <div className='bringit'>
                 <BringToTour/>
