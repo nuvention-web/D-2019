@@ -13,8 +13,9 @@ import Customization from './Customization';
 import ExperienceTitle from './ExperienceTitle';
 import ExperienceDescription from './ExperienceDescription';
 import './style.css';
-
+import Carousel from './Carousel';
 import Calendar from 'react-calendar';
+import Video from './Video';
 
 
 
@@ -62,9 +63,12 @@ class ExperiencePage1 extends Component {
                 </div>
 
               </CardDeck>
-              <div className='itllmakeyouliveforever'>
+              <br></br>
+              <Video/>
+
                 <Testimonial className='empty_box0'/>
-                </div>
+<Carousel/>
+              
               <Itinerary/>
               <div className='bringit'>
                 <BringToTour/>
