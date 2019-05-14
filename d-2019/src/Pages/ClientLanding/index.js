@@ -121,7 +121,7 @@ class ClientLanding extends Component {
               Time: 6:30pm
               </CardText>
 
-              <Button href='http://d-2019.firebaseapp.com/experiencepage3'>Explore More</Button>
+              <Button href='http://d-2019.firebaseapp.com/experiencepage4'>Explore More</Button>
               </CardImgOverlay>
             </Card>
             </Col>
