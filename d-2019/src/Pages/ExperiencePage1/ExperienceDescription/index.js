@@ -23,8 +23,7 @@ Locally Crafted Beer (non-alcohol options too),
 Dumplings,
 Taiwanese Boba (Tapioca) Tea/Smoothie,
 Mexican Street Food-Tamales and Carnitas,
-Churros,
-Italian Bombolinis
+Churros
 <br></br>
 Included: Guide, All Food and Drinks, CTA Day Pass
 
