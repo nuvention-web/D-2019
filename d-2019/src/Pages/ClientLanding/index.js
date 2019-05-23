@@ -29,7 +29,7 @@ class ClientLanding extends Component {
       <Container>
       <Row className='navheading'>
 
-        <Col xs="8"><Button  className='pull-left' href="https://forms.gle/mCGoaEppXdJnjqHb7">Sign Up to Receive Updates on Both New and Current Experiences</Button></Col>
+        <Col xs="8"><Button href="https://forms.gle/mCGoaEppXdJnjqHb7">Be a FoodXP Insider!</Button></Col>
 
         <Col><a  href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
       </Row>

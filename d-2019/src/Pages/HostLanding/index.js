@@ -29,7 +29,7 @@ class HostLandingPage extends Component {
       <Container>
       <Row className='navheading'>
 
-        <Col xs="8"><Button  className='pull-left' href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Register</Button></Col>
+        <Col xs="8"><Button  className='pull-left' href="https://docs.google.com/forms/d/e/1FAIpQLSe2id-CFYI0ZQK8Uno8f8u6em9Ly7O2Ez-yX3W2italwIYbAA/viewform">Register</Button></Col>
 
         <Col><a  href="./"><CardImg className='logo paddedlogo pull-right' src={require('static/img/logo2.png')} /></a></Col>
       </Row>
@@ -37,7 +37,7 @@ class HostLandingPage extends Component {
         <div>
         <img className='bg-small-img logo' src={require('static/img/logo.png')} />
         <h2 className="large-text">Introducing FoodXP <br /> Your place to offer indulgent food experiences</h2>
-        <Button href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Try FoodXP NOW</Button>
+        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSe2id-CFYI0ZQK8Uno8f8u6em9Ly7O2Ez-yX3W2italwIYbAA/viewform">Try FoodXP NOW</Button>
         </div>
       </Row>
       <Row className='details justify-content-center'>
@@ -61,7 +61,7 @@ class HostLandingPage extends Component {
       <Row>
         <div>
         <h2>Sign up to offer your experience <br /> For Free</h2>
-        <Button href="https://docs.google.com/forms/d/19MSCHVHIKyJ6RbTH5JfDslj4OgPwJj0AuOmBV2__Im0/edit">Start your free trial here</Button>
+        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSe2id-CFYI0ZQK8Uno8f8u6em9Ly7O2Ez-yX3W2italwIYbAA/viewform">Start your free trial here</Button>
         </div>
       </Row>
       <Row>
