@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import fire from 'config/Fire';
+//import fire from 'config/Fire';
 import Header from 'Components/Header';
 
-
+/*
 var storage = fire.storage();
 var storageRef = storage.ref();
 var uid = '';
@@ -18,13 +18,17 @@ fire.auth().onAuthStateChanged(function(user) {
     uid = '';
   }
 });
+*/
 
 class FileInput extends React.Component {
   constructor(props) {
     super(props);
+    /*
     this.handleSubmit = this.handleSubmit.bind(this);
     this.fileInput = React.createRef();
+    */
   }
+  /*
   handleSubmit(event) {
     event.preventDefault();
     
@@ -35,10 +39,10 @@ class FileInput extends React.Component {
         this.fileInput.current.files[0].name
       }`
     );
-  }
+  }*/
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form >{/*onSubmit={this.handleSubmit}>*/}
         <label>
           Upload file:
           <input type="file" ref={this.fileInput} />
@@ -62,7 +66,7 @@ class SignUp extends Component {
       password: ''
     };
   }
-
+/*
   writeUserData(userId, name, email, imageUrl, userType) {
     fire.database().ref('users/' + userId).set({
       username: name,
@@ -71,11 +75,11 @@ class SignUp extends Component {
       userType: userType,
     });
   }
-
+*/
   handleChange(e) {
     this.setState({ [e.target.name]: e.target.value });
   }
-
+/*
   login(e) {
     e.preventDefault();
     fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u)=>{
@@ -91,11 +95,12 @@ class SignUp extends Component {
     .catch((error) => {
         console.log(error);
       })
-  }
+  }*/
   render() {
     return (
         
        <div className="col-md-6">
+         {/*
        <Header />
        <form>
       <div class="form-group">
@@ -109,7 +114,7 @@ class SignUp extends Component {
       <small id="passwordHelp" class="form-text text-muted">Must be in longer than 7 characters</small>
       </div>
       <button onClick={this.signup} style={{marginLeft: '25px'}} className="btn btn-success">Signup</button>
- </form>
+         </form>*/}
 
  </div>
     );

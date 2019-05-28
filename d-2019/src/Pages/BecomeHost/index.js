@@ -2,9 +2,8 @@ import React, { Component, Fragment } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Container, Button } from 'reactstrap';
 import Header from 'Components/Header';
-import fire from 'config/Fire';
 
-
+/*
 var storage = fire.storage();
 var storageRef = storage.ref();
 var uid = '';
@@ -19,6 +18,7 @@ fire.auth().onAuthStateChanged(function (user) {
         uid = '';
     }
 });
+*/
 class GoHostMode extends React.Component {
     constructor(props) {
         super(props);
@@ -31,7 +31,7 @@ class GoHostMode extends React.Component {
             name : '',
         }
     }
-
+    /*
     handleSubmit(event) {
         event.preventDefault();
         fire.database().ref('users/' + uid).set({
@@ -46,7 +46,7 @@ class GoHostMode extends React.Component {
             this.fileInput.current.files[0].name
             } and made host profile for ${uid}`
         );
-    }
+    }*/
 
     handleBioChange(event){
         this.setState({
@@ -64,7 +64,7 @@ class GoHostMode extends React.Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+        <form >{/*onSubmit={this.handleSubmit}>*/}
                 Name: <input type="text" value={this.state.name} onChange={this.handleNameChange} />
               <br></br><br></br>
                 Profile Photo: <input type="file" ref={this.fileInput} />

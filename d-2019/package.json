@@ -18,6 +18,7 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
+    "react-search-field": "^1.0.0",
     "react-slick": "^0.24.0",
     "react-widgets": "^4.4.10",
     "react-youtube": "^7.9.0",

@@ -1,4 +1,5 @@
 import React from 'react';
+import Firebase, { FirebaseContext } from './simplified/chunks/Firebase';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
@@ -18,7 +19,9 @@ import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
-  <SiteRoutes/>
+  <FirebaseContext.Provider value={new Firebase()}>
+    <SiteRoutes/>
+  </FirebaseContext.Provider>
   , document.getElementById('root')
   );
 

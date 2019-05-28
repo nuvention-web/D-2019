@@ -1,4 +1,4 @@
-import fire from 'config/Fire';
+//import fire from 'config/Fire';
 import Login from './Login';
 import Home from './Home';
 import App from 'App';
@@ -17,7 +17,7 @@ class LoginPage extends Component{
   componentDidMount(){
     this.authListener();
   }
-
+/*
 authListener(){
   fire.auth().onAuthStateChanged((user)=>{
     console.log(user);
@@ -29,7 +29,7 @@ authListener(){
         // localStorage.setItem('user', user);
     }
   });
-}
+}*/
 
 render() {
   return (

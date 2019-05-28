@@ -3,15 +3,48 @@ import {Card, CardImg, CardTitle, CardImgOverlay, CardBody, Button, Row, Col, Ca
 import './style.css';
 import './_slick-theme.scss';
 import './_slick.scss';
-// import Carousel from './Carousel';
+import SearchField from 'react-search-field';
+import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
+const eric = ["Eric", "logansquare", "beer", "breweries", "local beer", "local breweries", "boardgame", "snack", "chicago snack", "weekday", "Thursday", "relaxing", "social", "fun", "interesting", "community", "experiential", "recommendations", "low price", "$22", "below $25", "below $65", "below $100", "3 hours", "intimate", "curated", "best neighborhood", "light", "open", "airy", "fantastic people", "afternoon", "afternoon games", "eating", "drinking", "shopping", "nerdy", "Chicagoan", "40 taps", "21 years elder", "jokes", "stories", "trivia"];
+    const kari = ["Kari", "downtown", "Chinatown", "west loop", "Hilton Palmer House Hotel", "Pilsen", "European", "Mexican", "crafted beer", "dumplings", "tea", "boba", "Taiwanese", "Tapioca", "smoothie", "street food", "tacos", "tamales", "carnitas", "churros", "Italian", "Bombolinis", "brownies", "1893 World\u2019s Fair Brownies", "weekday", "Monday", "Thursday", "Friday", "weekend", "Sunday", "CTA day pass", "high price", "4 hours", "below $100", "$99", "guide", "cultural tours", "private", "custom", "weekly", "scheduled", "explore", "neighborhoods", "authentic foods", "connect", "606 tours", "sustainable tourism", "community", "beaten path", "signature", "overview of Chicago", "history", "unique", "architecture", "people", "foods", "Great Chicago Fire", "skyscraper", "metropolis", "adventure", "delicious", "day tour", "oldest hotel", "Palmer House kitchen", "vibrant", "shops", "art murals", "trendy"];
+    const phyllis = ["Phyllis", "Argyle", "Andersonville", "north side", "cultures", "cultural tours", "historical tours", "food tours", "immigrants", "Asia", "Southeast Asia Community", "lessons", "making food", "making Vietnamese summer rolls", "Vietnam", "Middle East", "Sweden", "diverse food", "stumble", "film studio", "silent film", "Hollywood", "star", "Vikings", "Swedish", "speakeasy", "Lebanese", "guided tasting", "Middle East spice", "spice tasting", "apple pie", "dessert", "Food & Wine", "best in America", "lunchtime", "Wrigley Field", "activity", "cubs night games", "Persian", "weekend", "Saturday", "Sunday", "walking", "neighborhood", "explore neighborhood", "medium price", "$62", "below $65", "below $100", "3.5 hours", "chicago foodways", "mix of cultures", "local family business", "cozy", "pie shop", "hole-in-the-wall restaurant", "best Vietnamese food", "Nha Hang Vietnam", "banh mi shop", "Michelin rewards", "Zagat awards", "Ba Le Sandwich shop", "first and best", "Swedish American Museum", "royal visit", "Scandinavian crafts", "designer good", "1893 Columbian Exposition", "Svea restaurant and Simon\u2019s tavern", "cute", "tiny", "friendly", "old", "stories", "neighborhood history", "middle east bakery & grocery", "fresh", "pita", "hummus", "1981", "grocery", "taste", "first slice pie cafe", "non-profit", "sweet", "fun", "adventure"];
 
 
 class ClientLanding extends Component {
   constructor(props){
     super(props);
-  }
+    this.state = {
+      modal: false,
+      exps: ""
+    };
 
+    this.toggle = this.toggle.bind(this);
+    this.wordyToggle = this.wordyToggle.bind(this);
+  }
+  toggle() {
+    this.setState(prevState => ({
+      modal: !prevState.modal,
+      exps: prevState.exps
+    }));
+  };
+
+  wordyToggle(val,event){
+    let explist = [];
+    if(kari.includes(val)){
+      explist.push('kari');
+    }
+    if(eric.includes(val)){
+      explist.push('eric');
+    }
+    if(phyllis.includes(val)){
+      explist.push('phyllis');
+    }
+    this.setState(prevState => ({
+      modal: !prevState.modal,
+      exps: explist.toString()
+    }));
+  };
 
   render() {
 
@@ -22,9 +55,7 @@ class ClientLanding extends Component {
           slidesToShow: 1,
           slidesToScroll: 1
         };
-//<Col><Button>How it Works?</Button></Col>}
-//<Col><Button>Subscription Plan</Button></Col>
-//<Col><Button>Login</Button></Col>
+    
     return (
       <Container>
       <Row className='navheading'>
@@ -81,6 +112,18 @@ class ClientLanding extends Component {
       <Row>
 
       <h1 className="large-text  one two">Featured Experiences </h1><br></br>
+      </Row>
+      <Row>
+      <SearchField 
+  placeholder='Search experiences...'
+  onEnter={this.wordyToggle}
+/>
+<Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+          <ModalHeader toggle={this.toggle}>Your Booking Has Been Confirmed</ModalHeader>
+          <ModalBody>
+            {this.state.exps}
+          </ModalBody>
+        </Modal>
       </Row>
       <Row>
           <Col>

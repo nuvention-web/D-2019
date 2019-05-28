@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import fire from 'config/Fire';
+//import fire from 'config/Fire';
 import Header from 'Components/Header';
 
 class Login extends Component {
@@ -18,7 +18,7 @@ class Login extends Component {
   handleChange(e) {
     this.setState({ [e.target.name]: e.target.value });
   }
-
+/*
   login(e) {
     e.preventDefault();
     fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u) => {
@@ -35,11 +35,12 @@ class Login extends Component {
         console.log(error);
       })
   }
+  */
   render() {
     return (
       <div className="col-md-6">
         <Header />
-        <form>
+        <form>{/*
           <div className="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input value={this.state.email} onChange={this.handleChange} type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
@@ -51,6 +52,7 @@ class Login extends Component {
             <small id="passwordHelp" className="form-text text-muted">Must be in longer than 7 characters</small>
           </div>
           <button type="submit" onClick={this.login} className="btn btn-primary">Login</button>
+        */}
         </form>
 
       </div>

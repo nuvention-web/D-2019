@@ -3,10 +3,10 @@ import { Link, NavLink } from 'react-router-dom';
 import {Container} from 'reactstrap';
 import Header from 'Components/Header';
 import EventList from 'Components/EventList';
-import firebase from 'firebase';
-import fire from 'config/Fire';
+//import firebase from 'firebase';
+//import fire from 'config/Fire';
 // import Host from 
-
+/*
 var storage = fire.storage();
 var storageRef = storage.ref();
 var uid = '';
@@ -24,6 +24,7 @@ fire.auth().onAuthStateChanged(function (user) {
 
 var storage = firebase.storage();
 var storageRef = storage.ref();
+*/
 
 class HostPage extends Component {
 
@@ -49,7 +50,7 @@ class HostPage extends Component {
                 <Header />
               </header>
               <body>
-                <p>{email}</p>
+                <p>{/*email*/}</p>
                 <EventList/>
 
               </body>
