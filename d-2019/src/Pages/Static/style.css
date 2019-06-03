@@ -1,0 +1,44 @@
+.tablet1{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+    text-align: left;
+}
+
+.th1 {
+  border: 1px solid black;
+  height: 50px;
+  text-align: left;
+
+}
+.th_metric {
+  border: 1px solid black;
+  height: 50px;
+  text-align: left;
+  width:10%;
+
+}
+
+.button_1{
+
+  text-align: center;
+}
+
+.th_analytics{
+  border: 1px solid black;
+  height: 50px;
+    text-align: center;
+
+}
+.th_image {
+  border: 1px solid black;
+  height: 50px;
+  width:250px;
+    text-align: left;
+
+}
+
+.td1{
+  border: 1px solid black;
+  text-align: left;
+}
