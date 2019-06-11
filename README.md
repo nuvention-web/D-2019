@@ -20,3 +20,26 @@ Who to contact:
 
 Link to Github Repo
 	- https://github.com/nuvention-web/D-2019
+
+npm packages:
++-- bootstrap@4.3.1
++-- firebase@5.8.4
++-- google-map-react@1.1.2
++-- node-sass@4.11.0
++-- prop-types@15.7.2
++-- react@16.8.3
++-- react-bootstrap@1.0.0-beta.5
++-- react-calendar@2.18.1
++-- react-datetime-picker@2.1.1
++-- react-datetimepicker-bootstrap@1.1.2
++-- react-dom@16.8.3
++-- react-ga@2.5.7
++-- react-router@4.3.1
++-- react-router-dom@4.3.1
++-- react-scripts@2.1.5
++-- react-search-field@1.0.0
++-- react-slick@0.24.0
++-- react-widgets@4.4.10
++-- react-youtube@7.9.0
++-- reactstrap@7.1.0
+`-- slick-carousel@1.8.1
