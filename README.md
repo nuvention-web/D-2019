@@ -12,6 +12,15 @@ Direction to run the product:
 		- run "npm run build"
 		- run "firebase deploy"
 		- https://d-2019.firebaseapp.com
+	
+Operational Pages:
+https://d-2019.firebaseapp.com/welcome
+https://d-2019.firebaseapp.com/static
+https://d-2019.firebaseapp.com/experiencepage1
+https://d-2019.firebaseapp.com/experiencepage2
+https://d-2019.firebaseapp.com/experiencepage3
+https://d-2019.firebaseapp.com/experiencepage4
+https://d-2019.firebaseapp.com
 
 Who to contact:
 	- either contact JP Rha or Marc Warrior should you run into any problems
