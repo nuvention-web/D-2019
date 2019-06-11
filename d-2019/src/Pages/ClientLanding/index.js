@@ -32,13 +32,13 @@ class ClientLanding extends Component {
   wordyToggle(val,event){
     let explist = [];
     if(kari.includes(val)){
-      explist.push('kari');
+      explist.push('The Chicago Tour ');
     }
     if(eric.includes(val)){
-      explist.push('eric');
+      explist.push('Drink Beer, Play Games, Love Chicago ');
     }
     if(phyllis.includes(val)){
-      explist.push('phyllis');
+      explist.push('Saigon to Stockholm Food Tour ');
     }
     this.setState(prevState => ({
       modal: !prevState.modal,

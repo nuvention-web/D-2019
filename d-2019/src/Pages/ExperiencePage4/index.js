@@ -24,9 +24,10 @@ class ExperiencePage4 extends Component {
 
     render() {
 
-      const tileClassNames = ({ date, view }) => date.getDate() === 4 && date.getMonth() === 4 ? 'eventdate' : '';
-      const availables = ({ date, view }) => date.getDate() === 4 && date.getMonth() === 4;
-      const unavailables = ({ date, view }) => !(date.getDate() === 4 && date.getMonth() === 4);
+      const tileClassNames = ({ date, view }) => (date.getDate() < 8 && date.getDay() === 4) || (date.getDate() > 14 && date.getDate() < 21 && date.getDay() === 4) ? 'eventdate' : '';
+      const availables = ({ date, view }) => (date.getDate() < 8 && date.getDay() === 4) || (date.getDate() > 14 && date.getDate() < 21 && date.getDay() === 4) === 4;
+      const unavailables = ({ date, view }) => !((date.getDate() < 8 && date.getDay() === 4) || (date.getDate() > 14 && date.getDate() < 21 && date.getDay() === 4));
+
 
       return (
         <Fragment>

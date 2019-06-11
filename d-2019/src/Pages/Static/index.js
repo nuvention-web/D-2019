@@ -51,54 +51,34 @@ class Static extends Component {
             </table>
 
 
-
-
-
             <table className="tablet1">
             <tr>
               <th className="th_metric">Metrics Title:</th>
-              <th className="th_metric">A.</th>
-              <th className="th_metric">B.</th>
-              <th className="th_metric">C.</th>
-              <th className="th_metric">D.</th>
-              <th className="th_metric">E.</th>
-              <th className="th_metric">F.</th>
+              <th className="th_metric">Experience Views</th>
+              <th className="th_metric">Experience Dwell Time</th>
+              <th className="th_metric">Book Now Clicks</th>
+              <th className="th_metric">Appearances in Homepage Search Results</th>
             </tr>
             <tr>
               <td className="td1">This Week</td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
+              <td className="td1">27</td>
+              <td className="td1">15.8 seconds</td>
+              <td className="td1">3</td>
+              <td className="td1">52</td>
             </tr>
             <tr>
               <td className="td1">Last Week</td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
+              <td className="td1">19</td>
+              <td className="td1">30.5 seconds</td>
+              <td className="td1">2</td>
+              <td className="td1">14</td>
             </tr>
             <tr>
               <td className="td1">Past Month</td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-            </tr>
-            <tr>
-              <td className="td1">Null</td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
-              <td className="td1"></td>
+              <td className="td1">214</td>
+              <td className="td1">16.1 seconds</td>
+              <td className="td1">12</td>
+              <td className="td1">144</td>
             </tr>
             </table>
 
@@ -145,9 +125,10 @@ class Static extends Component {
             <tr>
               <th className="th1">
                 <h5>Subscription Type: FoodXP Beta </h5>
-                <div>
+                
+                {/*<div>
                   <Button className="button_1" href="#">Change my Subscription</Button>
-                </div>
+                </div>*/}
               </th>
 
             </tr>
